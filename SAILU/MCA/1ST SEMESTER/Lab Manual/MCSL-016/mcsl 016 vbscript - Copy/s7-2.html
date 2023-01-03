@@ -1,0 +1,39 @@
+<htmlss>
+<head>
+<title>Simple Interest</title>
+<script language="vbscript">
+sub calculate()
+	dim p,t,r,i,si
+	 p = CDbl(document.getElementById("principle").value)
+	 t = CDbl(document.getElementById("time").value)
+	 r = CDbl(document.getElementById("rate").value)
+	 i = CDbl(p*t*r)/(CDbl(100))
+	 si = p+i
+	msgbox "Your Simple Interest is : " & si 
+ end sub
+</script>
+</head>
+<body>
+ <table>
+ <caption>Simple Interest Calculator</caption>
+ <tr>
+ <td> Principle</td>
+ <td> : </td>
+ <td> <input type="text" id="principle"/> </td>
+ </tr>
+ <tr>
+ <td> Rate </td>
+ <td> : </td>
+ <td> <input type="text" id="rate"/> </td>
+ </tr>
+ <tr>
+ <td> Time </td>
+ <td> : </td>
+ <td> <input type="text" id="time" /> </td>
+ </tr>
+ <tr>
+ <td> <input type="submit" value="calculate" onclick="calculate()" /> </td>
+ </tr>
+ </table>
+</body>
+</html>

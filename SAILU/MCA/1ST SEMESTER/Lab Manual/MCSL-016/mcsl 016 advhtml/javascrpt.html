@@ -1,0 +1,23 @@
+<html
+><head>
+<script 
+language="JavaScript">
+function movetext(){
+if(txt.style.posLeft<720)
+{
+txt.style.posLeft=txt.style.posLeft+2;window.setTimeout("movetext()",5);
+
+}
+else{
+txt.style.posLeft=0;window.setTimeout("movetext()",5);}}
+
+</script>
+</head>
+<body onLoad="movetext()">
+<form name="form1" method="post" action="">
+<div id="txt" style="position:relative;top:3;left0">
+<h2>Scrolling Text</h2>
+</div>
+</form>
+</body>
+</html>

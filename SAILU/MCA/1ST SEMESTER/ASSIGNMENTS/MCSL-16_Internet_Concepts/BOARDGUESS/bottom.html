@@ -1,0 +1,263 @@
+<HTML>
+
+<HEAD>
+
+<style>
+
+body
+
+{
+
+margin:0px;
+
+font-family:Arial, Helvetica, sans-serif;
+
+font-size:12px;
+
+color:#333333;
+
+}
+
+.td
+
+{
+
+margin:0px;
+
+font-family:Arial, Helvetica, sans-serif;
+
+font-size:12px;
+
+color:#ffffff;
+
+background-color:#6666FF;
+
+}
+
+a
+
+{
+
+font-size:12px;
+
+font-family:Arial, Helvetica, sans-serif;
+
+text-decoration:none;
+
+color:#013B74;
+
+}
+
+a:hover
+
+{
+
+font-size:12px;
+
+font-family:Arial, Helvetica, sans-serif;
+
+text-decoration:none;
+
+color:#6666FF;
+
+}
+
+.menulink
+
+{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+font-size:12px;
+
+color:#FFFFFF;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+a.menulink
+
+{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+font-size:12px;
+
+color:#FFFFFF;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+a.menulink:hover
+
+{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+font-size:12px;
+
+color:#FFFFFF;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+</style>
+
+</HEAD>
+
+<BODY>
+
+<TABLE>
+
+<TR>
+
+<TD><A HREF="intertainment.html">Aamir to star with Kate Winslet?</A></TD>
+
+<TD><A HREF="">Greatest of IIFA performances</A></TD>
+
+<TD><A HREF="">Nadal eyes 5th French Open title, Federer eyes 1st</A></TD>
+
+</TR>
+
+<TR>
+
+<TD><A HREF="">Premji takes pay cut, hike for Wipro execs</A></TD>
+
+<TD><A HREF="">Economy may getover slowdown late this year: RBI Governor</A></TD>
+
+</TR>
+
+</TABLE>
+
+</BODY>
+
+</HTML>
+
+----------------------------------------------------------------
+
+Middle frame (ragistration.html)
+
+----------------------------------------------------------------
+
+<HTML>
+
+<HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+function validate(){
+
+if(document.getElementById('username').value=="" || document.getElementById('username').value==null){
+
+alert("Please select username");
+
+document.getElementById('username').focus();
+
+return false;
+
+}
+
+if(document.getElementById('email').value=="" ){
+
+alert('Please select email');
+
+document.getElementById('email').focus();
+
+return false;
+
+}
+
+if(document.getElementById('con_password').value=="" ){
+
+alert('Please enter confirm password');
+
+document.getElementById('con_password').focus();
+
+return false;
+
+}
+
+if(document.getElementById('password').value==""){
+
+alert('Please select password');
+
+document.getElementById('password').focus();
+
+return false;
+
+}
+
+}
+
+</SCRIPT>
+
+</HEAD>
+
+<BODY>
+
+<TABLE width="100%" border="0" cellspacing="2" cellpadding="5">
+
+<form action="" method="post">
+
+<TR>
+
+<TD align="right">Username</TD>
+
+<TD>:</TD>
+
+<TD><input name="username" id="username" type="text" size="15" /></TD>
+
+</TR>
+
+<TR>
+
+<TD align="right">Password</TD>
+
+<TD>:</TD>
+
+<TD><input name="password" id="password" type="text" size="15" /></TD>
+
+</TR>
+
+<TR>
+
+<TD align="right">Confirm Password</TD>
+
+<TD>:</TD>
+
+<TD><input name="con_password" id="con_password" type="text" size="15" /></TD>
+
+</TR>
+
+<TR>
+
+<TD align="right">Email</TD>
+
+<TD>:</TD>
+
+<TD><input name="email" id="email" type="text" size="15" /></TD>
+
+</TR>
+
+<TR>
+
+<TD colspan="3" align="center"><input name="submit" type="submit" value="Submit" size="15" onclick="return validate()"/>&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="frame3.html">Back >></A></TD>
+
+</TR>
+
+</form>
+
+</TABLE>
+
+</BODY>
+
+</HTML>

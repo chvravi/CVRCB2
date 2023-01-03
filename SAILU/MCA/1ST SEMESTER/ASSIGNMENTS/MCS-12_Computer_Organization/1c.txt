@@ -1,0 +1,15 @@
+http://brainly.in/question/759763
+
+
+Combinatorial circuit is in the diagram enclosed.
+Truth table and Karnaugh map are first drawn.  Then the circuit using the logic gates AND, OR, NOT.
+
+The circuit will be simpler with use of exclusive or gates.
+
+X = ABC' + AC'D + BC'D + A'CD + BCD' + AB'C 
+    = A(B'C + C'B) + B (C'D + D'C) + D (A C' + A' C) 
+
+[ALSO, X' = A'B'C' + A'B' D' + A'C'D' + B'C'D' + ABCD By  taking the zeros in the table 
+
+Y = (A'B + A B') C'D' + (A'B' + AB) C'D + CD (A'B + A B')+ (A'B'+AB)CD' 
+   = (A'B + A B') (C'D' + CD) + ( A'B' + AB) (C'D + C D') 

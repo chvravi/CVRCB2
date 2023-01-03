@@ -1,0 +1,37 @@
+BCS-012 Mathematics     									 - NA
+
+MCS-11 Problem Solving And Programming
+MCS-12 Computer Organization and Assembly Language Programming
+MCS-13 Discrete Mathematics
+MCS-14 Systems Analysis and Design
+MCS-15 Communication Skills
+MCSL-16 Internet Concepts and Web Design
+MCSL-17 C And Assembly Language Programming Lab
+
+MCS-021 Data And File Structures
+MCS-022 Operating System Concepts and Networking Management - NA
+MCS-023 Introduction To Database Management Systems
+MCS-024 Object Oriented Technologies and Java Programming
+MCSL-025 Lab (based on MCS-021, 022, 023 & 024)
+
+MCS-031 Design And Analysis Of Algorithms
+MCS-032 Object Oriented Analysis and Design
+MCS-033 Advanced Discrete Mathematics
+MCS-034 Software Engineering 								 - NA
+MCS-035 Accountancy And Financial Management
+MCSL-036 Lab (based on MCS-032, 034 and 035)
+
+MCS-041 Operating Systems
+MCS-042 Data Communication And Computer Networks
+MCS-043 Advanced Database Management Systems
+MCS-044 Mini Project
+MCSL-045 Lab (UNIX & Oracle)
+
+MCS-051 Advanced Internet Technologies						 - NA
+MCS-052 Principles Of Management and Information Systems
+MCS-053 Computer Graphics and Multimedia
+MCSL-054 Lab (based on MCS-051 & 053)
+
+MCSE-003 Artificial Intelligence and Knowledge Management
+MCSE-004 Numerical And Statistical Computing
+MCSE-011 Parallel Computing

@@ -1,0 +1,28 @@
+<html>
+<head>
+</head>
+<script language="JavaScript">
+    function setdate() {
+        var dt = new Date();
+        dt = new Date(form1.y.value, form1.m.value, form1.d.value);
+        form1.gt.value = dt.getDate() + "/" + dt.getMonth() + "/" + dt.getFullYear();
+    }
+</script>
+<body>
+    <form name="form1" method="post" action="">
+    <p>
+        Day
+        <input name="d" type="text" id="d" size="3">
+        Month
+        <input name="m" type="text" id="m" size="3">
+        Year
+        <input name="y" type="text" id="y" size="4">
+        <input type="button" name="Button" value="SetDate" onclick="setdate()">
+    </p>
+    <p>
+        Date
+        <input name="gt" type="text" id="gt">
+    </p>
+    </form>
+</body>
+</html>

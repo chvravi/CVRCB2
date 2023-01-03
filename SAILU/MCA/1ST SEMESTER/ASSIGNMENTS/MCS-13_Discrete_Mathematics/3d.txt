@@ -1,0 +1,30 @@
+Any representation of n%N as a sum of positive integers in nonincreasing
+order is called a partition (or integer partition) of n. Each such partition
+can be written in the form n = p1 + p2 + …+ pk, where p1 $ p2 $ … $ pk.
+Here, p1, p2,…, pk are called the parts of the partition, and the number of parts of the
+partition is k
+
+n = 8
+#partitions = 22 as shown below:
+8 
+7 1 
+6 2 
+6 1 1 
+5 3 
+5 2 1 
+5 1 1 1 
+4 4 
+4 3 1 
+4 2 2 
+4 2 1 1 
+4 1 1 1 1 
+3 3 2 
+3 3 1 1 
+3 2 2 1 
+3 2 1 1 1 
+3 1 1 1 1 1 
+2 2 2 2 
+2 2 2 1 1 
+2 2 1 1 1 1 
+2 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 

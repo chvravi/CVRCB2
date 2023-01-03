@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Mouse and Keyboard Events</title>
+<script language="vbscript">
+Function fnSubmit()
+  Msgbox("You have Clicked Submit")
+End Function
+
+Function focustxt()
+  MsgBox "Mouse Over"
+End Function
+
+Function CheckKeyUp()
+  MsgBox "You have pressed UpKey" 
+End Function
+
+Function CheckKeyDown
+  MsgBox "You have pressed DownKey"
+End Function
+
+</script>
+</head>
+
+<body onKeyUp="CheckKeyUp" onKeyDown="checkKeyDown">
+    <input type="submit" value="Submit" onclick="fnSubmit()">
+	<h1 onMouseOver="focustxt()">onMouseOver the text</h1>
+</body>
+</html>

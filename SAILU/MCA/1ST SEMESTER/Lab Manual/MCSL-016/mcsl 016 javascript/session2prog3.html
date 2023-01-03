@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script language="JavaScript">
+        var car = new Object;
+        car.model = "Marcides Benz";
+        car.year = 2008; 
+        car.make = "DX";
+        car.price = 4500000;
+    </script>
+</head>
+<script language="JavaScript">
+    function printdet() {
+        document.write(" Model : " + car.model);
+        document.write(", Make : " + car.make);
+        document.write(", Year : " + car.year);
+        document.write(", Price : " + car.price);
+    }
+</script>
+<body>
+    <form name="form1" method="post" action="">
+    <input type="button" name="Submit" value="Print Details" onclick="printdet()">
+    </form>
+</body>
+</html>

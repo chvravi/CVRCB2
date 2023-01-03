@@ -1,0 +1,1004 @@
+   
+  
+  
+    Page-1 
+BCS-012 (Solved Assignments) 
+ 
+ 
+QUESTION1: Use Cramer’s Rule to solve the system of linear equation given below 2x – y + 3z 
+= 0; x + 5y – 7z = 0; x – 6y + 10z = 0  
+Solution 
+ Evaluate ? first. We have 
+ ?= [
+2 -1 3
+1 5 -7
+1 -6 10
+] 
+ Apply R1?R1-2R2,  R2?R2-R3 
+    = [
+0 -11 17
+0 11 -17
+1 -6 10
+]  
+ 
+  ?= 0  [because R1 and R2 are proportional] 
+Therefore, the given system of linear homogeneous equations has an infinite number of solutions. 
+Now, Rewrite the equation 
+  2x – y = -3z  
+x + 5y = 7z  
+  ?= |
+2 -1
+1 5
+| 
+  ?= 10+ 1 = 11 
+  ?? 0 
+Now we have,  
+ ??? = |
+-3?? -1
+7?? 5
+| 
+      = -15z+7z=-8z  
+   
+ ??? = |
+2 -3?? 1 7?? | 
+      = 14z-(-3z)=17z 
+BY using Cramer’s Rule  
+  
+ ?? =
+??? ?
+=
+-8?? 11
+ 
+ ?? =
+??? ?
+=
+17?? 11
+ 
+QUESTION2:Find the inverse of A= [
+?? ?? ?? ?? ?? ?? -?? ?? ?? ] and verify that A
+-1
+A=I 3 
+Ans 
+  
+ |?? | = 1|
+3 1
+1 1
+| - 2|
+2 1
+-1 1
+| + 5|
+2 3
+-1 1
+| 
+         = 1(3-1)-2(2+1)+5(2+3) 
+         = 1×2-2×3+5×5 
+         = 21 
+   
+  
+  
+    Page-2 
+ Since |?? | ? 0,?? ???? ???????????????????? .  
+Evaluating the cofactors of the elements 
+A 11= (-1)
+1+1
+|
+3 1
+1 1
+| = 2
+  
+A 12= (-1)
+1+2
+|
+2 1
+-1 1
+| = -3
+  
+A 13= (-1)
+1+3
+|
+2 3
+-1 1
+| = 5 
+A 21= (-1)
+2+1
+|
+2 5
+1 1
+| = 3
+  
+A 22= (-1)
+2+2
+|
+1 5
+-1 1
+| = 6
+  
+A 23= (-1)
+2+3
+|
+1 2
+-1 1
+| = -3 
+A 31= (-1)
+3+1
+|
+2 5
+3 1
+| = -13 A 32= (-1)
+3+2
+|
+1 5
+2 1
+| = 9
+  
+ A 33= (-1)
+3+3
+|
+1 2
+2 3
+| = -1
+ 
+AdjA= [
+2 -3 5
+3 6 -3
+-13 9 -1
+]
+-1
+= [
+2 3 -13
+-3 6 9
+5 -3 -1
+] 
+A
+-1
+=
+1
+|?? |
+???????? =
+1
+21
+[
+2 3 -13
+-3 6 9
+5 -3 -1
+] 
+  = [
+2/21 3/21 -13/21
+-3/21 6/21 9/21
+5/21 -3/21 -1/21
+] 
+A
+-1
+A=[
+2/21 3/21 -13/21
+-3/21 6/21 9/21
+5/21 -3/21 -1/21
+] [
+1 2 5
+2 3 1
+-1 1 1
+] 
+       = 
+[
+ 
+ 
+ 
+ 
+2
+21
++
+6
+21
++
+13
+21
+4
+21
++
+9
+21
++
+13
+21
+10
+21
++
+3
+21
+-
+13
+21
+-
+3
+21
++
+12
+21
+-
+9
+21
+-
+6
+21
++
+18
+21
++
+9
+21
+-
+15
+21
++
+6
+21
++
+9
+21
+5
+21
+-
+6
+21
++
+1
+21
+10
+21
+-
+9
+21
+-
+1
+21
+25
+21
+-
+3
+21
+-
+1
+21
+]
+ 
+ 
+ 
+ 
+ 
+       = [
+1 0 0
+0 1 0
+0 0 1
+] 
+QUESTION3: Solve the system of equation using matrix method 2x – y + 3z = 5; 3x + 2y – z = 
+7; 4x + 5y – 5z = 9  
+Ans 
+We can rewrite the above system of equations as the single matrix equation AX =0, where 
+A= [
+2 -1 3
+3 2 -1
+4 5 -5
+], X=[
+?? ?? ?? ] and B= [
+5
+7
+9
+] 
+|?? | = 2|
+2 -1
+5 -5
+| + 1|
+3 -1
+4 -5
+| + 3|
+3 2
+4 5
+| 
+2(-10+5)+1(-15+4)+3(15-8) 
+-10-11+21=0 
+   
+  
+  
+    Page-3 
+Here, |A|=0 
+ A is s singular matrix. 
+Thus, AX = B has an infinite number of solutions. To find these solutions, we write 2x – y = 5 –3z, 3x 
++ 2y = 7 + z or as a single matrix equation 
+ [
+2 -1
+3 2
+][
+?? ?? ] = [
+5 - 3?? 7 + ?? ] 
+Here, |A| = 7 ? 0  
+Since |A| ? 0, A is an invertible matrix Now,  
+A 11=2  A 12=-3  A 21=1  A 22=2 
+adj A =[
+2 -3
+1 2
+] = [
+2 1
+-3 2
+] 
+Therefore, from X =A
+-1
+B, we get 
+ [
+?? ?? ] =
+1
+7
+[
+2 1
+-3 2
+][
+5 - 3?? 7 + ?? ] 
+ [
+?? ?? ] =
+1
+7
+[
+10- 6?? + 7 + ?? -15+ 9?? - 21+ 2?? ] 
+ [
+?? ?? ] =
+1
+7
+[
+17- 5?? -15+ 9?? + 14+ 2?? ] 
+ [
+?? ?? ] =
+1
+7
+[
+17- 6?? -1 + 11?? ] 
+ X=
+17-6?? 7
+ y=
+-1+11?? 7
+ 
+Question4: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2 5 -3 -4 
+4 7 -4 -3 
+6 9 -5 2 
+0 -9 6 5 
+ 
+   
+  
+  
+    Page-4 
+ 
+ 
+Let A= 
+ 
+ 
+Applying R 2 ? R 2 -2R1 and R3 ? R 3-3R 1
+ 
+ 
+= 
+ 
+ 
+ 
+= 
+ 
+|B|=0 
+So,  
+=     is a square sub matrix 
+ 
+|A|  =2(---3 X 4 – 0 X 5) 
+ = -24 ? 0 
+Rank of this matrix is 3 
+ 
+ 
+ 
+ 
+QUESTION5: Show that x(x + 1) (2x + 1) is a multiple of 6 for every natural number x.  
+ 
+Solution :Let Pndenote the statement X(X+ 1) (2X+ 1) is a multiple of 6.  
+2 5 -3 -4 
+4 7 -4 -3 
+6 9 -5 2 
+0 -9 6 5 
+ 
+2 5 -3 -4 
+0 -3  2 5 
+0 -6  4 14 
+0 -9 6 15 
+ 
+2 5 -3 -4 
+0 -3  2 5 
+0 0 0 4 
+0 0 0 0 
+ 
+2 5 -4 
+0 -3  5 
+0  0  4
+  
+ 
+   
+  
+  
+    Page-5 
+When X=1, Pnbecomes 1(1 + 1) ((2)(1) + 1) = (1)(2)(3) = 6 is a multiple of 6.  
+This shows that the result is true for n = 1. 
+ Assume that Pkis true for some k?N.  
+That is assume that k(k + 1) (2k + 1) is a mutliple of 6. 
+ Let k (k + 1)(2k + 1) = 6 m for some m?N.  
+We now show that the truth of Pkimplies the truth of Pk+1, where Pk+1 is (k + 1)(k + 2) [2(k + 1) + 1] = 
+(k + 1)(k + 2) (2k + 3) is a multiple of 6.  
+We have (k + 1) (k + 2) (2k + 3) = (k + 1) (k + 2) [(2k + 1) + 2] 
+= ( k+ 1) [k (2k + 1) + 2(2k+1) + 4)]  
+= ( k+ 1) [k (2k + 1) + 6 (k + 1)] 
+ = k (k + 1) (2k + 1) + 6 (k + 1)
+2
+= 6m + 6 (k + 1)
+2 
+= 6[m + (k + 1)
+2
+]  
+Thus (k + 1) (k + 2) (2k + 3) is multiple of 6. 
+QUESTION6: Find the sum of the series 1
+2
++ 3
+2
++ 5
+2
++ …. + (2n – 1)
+2 
+Solution- 
+ Let trdenote the rth term of 1
+2
++ 3
+2
++ 5
+2
++ …. + (2n – 1)
+2
+, then 
+ t r= (2r – 1)
+2
+ = 4r
+2
+-4r+1 
+ ? ?? ?? ?? ?? =1
+= ? 4?? 2
+- 4r + 1
+?? ?? =1
+= 4? ?? 2
+- 4
+?? ?? =1
+? ?? ?? ?? =1
++? 1
+?? ?? =1
+ 
+  
+ ? ?? 2 ?? ?? =1
+=
+1
+6
+ ?? (?? + 1)(2?? + 1),? ?? =
+1
+2
+?? (?? + 1)
+?? ?? =1
+and? 1 = ?? ?? ?? =1
+ 
+  
+ ? ?? ?? ?? ?? =1
+= 4{
+1
+6
+?? (?? + 1)(2?? + 1)- 4{
+1
+2?? (?? +1)
+} + 2 
+    = 2/3n (n + 1)(2n + 1) – 2n (n + 1) + n. 
+We now take1/3n common from each on the right side, so that 
+? ?? ?? ?? ?? =1
+= 1/3 n[2(n + 1)(2n + 1) –6(n + 1)+ 3)] 
+= 1/3 n[2(2n2 + 2n + n + 1) – (6n + 6) + 3] 
+=1/3 n[(4n2 + 6n + 2 – 6n –6 + 3) = 1/3 n(4n
+2
+– 1) 
+ 
+  
+QUESTION7: If 1, ?? , ?? 2
+  are three cube roots of unity.  Show that : 
+ (2- ?? )(2- ?? 2
+)(2- ?? 10
+)(2- ?? 11
+)=49 
+Ans- 
+ Since , 
+ ?? 10=
+(?? 3
+)
+3
+?? 
+ 
+?? 11=
+(?? 3
+)
+3
+?? 2 
+ 
+Thus, 
+ (2- ?? )(2- ?? 2
+) (2-(?? 3
+)
+3
+?? ) (2-(?? 3
+)
+3
+?? 2
+) 
+ (2- ?? )(2- ?? 2
+) (2- ?? )(2- ?? 2
+) 
+   
+  
+  
+    Page-6 
+ [(2- ?? )(2- ?? 2
+)]
+2 
+[4-2 ?? 2
+-2 ?? +?? 3
+]
+2 
+[4-2(?? 2
++ ?? )+?? 3
+]
+2 
+[4-2(-1)+1]
+2 
+[4+2+1]
+2 
+49=RHS 
+QUESTION9: Solve the inequality 
+?? |?? -?? |
+> 5 and graph its solution.  
+Solution 
+ The domain of the inequality is{ x | x ?3)  
+For x ?|x - 3 | > 0 
+ Thus, the given inequality 
+ = 
+2
+|?? -3|
+> 5 
+ = 2 > 5|?? - 3| 
+ = |?? - 3|<
+2
+5
+ 
+ = 
+-2
+5
+< ?? - 3 <
+2
+5
+ 
+ = 3 -
+2
+5
+< ?? - 3 + 3 <
+2
+5
++ 3 
+ =
+13
+5
+< ?? <
+17
+5
+ 
+ the solution set of the inequality is 
+ {x|13/5<x < 17/5} = (13/5, 17/5) 
+ The graph of this set is 
+  
+ 
+   13/5    17/5 
+QUESTION 10:Show that f(x) = | x | is continuous at x = 0. 
+Solution  
+ ?? (?? ) = |?? | = {
+?? ,        ?? = 0
+-?? ,     ?? < 0           
+} 
+To show that f is continuous at x = 0, it is sufficient to show that 
+ lim
+?? ?0
++ ?? (?? ) = lim
+?? ?0
++
+(?? ) = ?? (0)and 
+ lim
+?? ?0
+- ?? (?? ) = lim
+?? ?0
+-
+(0 - h) = ?? (-h) 
+        = lim
+h?0
++
+-(-h) 
+     = lim
+h?0
++
+(h) = 0 
+ 
+ And lim
+h?0
++
+?? (?? ) = lim
+?? ?0
++
+(0 + h) = ?? (h) 
+        = lim
+h?0
++
+(h) 
+     = lim
+h?0
++
+(h) = 0 
+ Thus, 
+  lim
+?? ?0
+- ?? (?? ) =lim
+?? ?0
++ ?? (?? ) = 0 
+   F(0)=0 
+ Hence, f is continuous at x = 0. 
+ 
+ 
+QUESTION11: Find derivative of the following (i) x
+2
+e
+x
+(ii) ln x/x  
+Solution 
+ (i) x
+2
+e
+x 
+ 
+Using product rule, 
+   
+  
+  
+    Page-7 
+ 
+?? ????
+(?? 2
+?? ?? ) =
+?? ????
+(?? )
+2
+?? ?? + ?? 2
+?? ????
+?? ?? 
+  =2????
+?? + ?? 2
+?? ?? 
+  = (2?? + ?? 2
+)?? ?? 
+ (ii)ln x/x 
+ Using the quotient rule,  
+?? ????
+?????? ?? = 
+?? ?? ????
+(?????? )- ?????? ?? ????
+(?? )
+?? 2
+ 
+  = 
+?? .
+1
+?? - ?????? (1)
+?? 2
+ 
+  =
+1 -??????
+?? 2
+ 
+  
+QUESTION 12:If Y = ln (x +v?? ?? + ?? ), Prove that (x
+2
++ 1)
+?? ?? ?? ????
+?? + x
+????
+????
+ = 0 
+Solution 
+ Y= ln (x +v?? 2
++ 1 ) 
+ 
+????
+????
+= 
+?? ????
+ ln (x + v?? 2
++ 1 
+      = 
+1
+?? +v?? 2
++1
+?? ????
+[?? + (?? 2
++ 1)
+1
+2
+]  [By using chain Rule] 
+      = 
+1
+?? +v?? 2
++1
+[1 +
+1
+2
+(?? 2
++ 1)
+1
+2
+ 2?? ] 
+      =
+1
+?? +v?? 2
++1
+[1 +
+?? v?? 2
++1
+] 
+      =
+1
+?? +v?? 2
++1
+[
+v?? 2
++1 + ?? v?? 2
++1
+] 
+    
+      = 
+1
+v?? 2
++1
+= (?? 2
++ 1)
+-1/2
+ 
+ Now Second Derivative we need to calculate 
+  
+?? 2
+?? ????
+2
+= (?? 2
++ 1)
+-1/2 
+  
+(-
+1
+2
+)(?? 2
++ 1)
+-3
+2
+?? ????
+[?? 2
++ 1] 
+   -
+1
+2
+1
+(?? 2
++1)
+3
+2
+ 2?? = -
+?? (?? 2
++1)
+3
+2
+ 
+ Now, (x
+2
++ 1)
+?? 2
+?? ????
+2
+ + x
+????
+????
+ 
+   
+  =(x
+2
++ 1)
+-?? (?? 2
++1)
+3
+2
++ (?? 2
++ 1)
+-1/2 
+  
+=(x
+2
++ 1)
+-?? (?? 2
++1)
+3
+2
++ ?? 1
+v?? 2
++1
+ 
+  = -
+?? v?? 2
++1
++
+?? v?? 2
++1
+=0 
+ Thus, 
+   
+ 
+(x
+2
++ 1)
+?? 2
+?? ????
+2
+ + x
+????
+????
+ = 0
+ 
+   
+ 
+ 
+QUESTION 13 If a camphor ball evaporates at a rate proportional to its surface area 4pr
+2
+ 
+.Show that its radius decreases at a constant rate. 
+Solution 
+ Let r be the radius V be the volume of the camphor ball at time t. Then  
+  V=
+4
+3
+?? ?? 3
+ 
+   
+  
+  
+    Page-8 
+We are given that the camphor ball evaporates at a rate proportional to its surface area. This means 
+that the rate of decrease of volume V of the camphor ball is proportional to 4pr
+2
+ 
+ So that, 
+????
+????
+= -?? (4pr
+2
+) 
+  
+wherek > 0 is a constant.  
+ 
+????
+????
+= (4pr
+2
+)
+????
+????
+ 
+   = (4pr
+2
+)
+????
+????
+= -?? 4pr
+2 
+ 
+= 
+????
+????
+= -?? 
+[Negative sign has been introduced to show that the volume is decreasing.] 
+ 
+QUESTION 14: Determine the intervals in which the function f(x) = e 
+1/x
+. (x ? 0) is increasing 
+or decreasing . 
+Solution 
+  
+We have, for x ? 0 f '(x) = e
+1/x
+(-
+1
+?? 2
+)= - 
+1
+?? 2
+?? 1
+?? 
+As ?? 1
+?? > 0and x
+2
+>=0  ? ?? ? 0we get f´(x)<0 ? ?? ? 0.  
+Thus, f(x) decreases on ( –8,0)  (0, 8) 
+ 
+QUESTION 15: Find local maximum and local minimum values for f(x) = x
+3
+– 6x
+2
++ 9x +1. 
+(x?R). 
+Solution 
+Thus, f ´ (x) = 3x
+ 2
+ – 12x + 9= 3(x
+2
+-4x+3)=3(x –3)(x -1).  
+To obtain critical number of f, we set f ´ (x) = 0 this yields x = 1, 3.  
+Therefore, the critical number of f are x = 1, 3.  
+Now f ´ (x) = 6x – 12 = 6(x – 2)  
+We have f ´ (1) = 6(1 – 2) = – 6 < 0 and f (3) = 6(3 – 2) = 6 > 0.  
+Using the second derivative test, we see that f (x) has a local maximum at x = 1 and a local minimum 
+at x = 3.  
+The value of local maximum at x = 1 is  
+f(1) = 1– 6+ 9 +1 = 5  
+and the value of local minimum at x = 3 is 
+f(3) = 3
+3
+– 6(3)
+2
+ + 9(3) + 1 = 27 – 54 + 27 + 1 = 1. 
+ 
+QUESTION 16: Evaluate the integral  
+   
+(ii) I=??? 3
+(???????? )
+2
+ ???? 
+Sol: See Block-3, Unit-3, Example-24, Page 93. 
+ 
+QUESTION 17: Find the area bounded by curves Y = v?? and Y = x 
+Solution: Block -3, Unit-4, Example-13, Page-115 
+ 
+ 
+QUESTION 18. Find the length of the curve Y = 2x + 3  
+ 
+Solution: Block -3, Unit-4, Example-17,Page-117 
+ 
+ 
+QUESTION 19: Prove that the straight line joining the mid points of two non-parallel sides of 
+a trapezium is parallel to the parallel sides and half of their sum.  
+Disclaimer:  This Assignment is prepared by our 
+students. The Institution and publisher are not 
+responsible for any omission and errors. 
+ 
+   
+  
+  
+    Page-9 
+Sol: See Block-4,Unit-1,Page20, Example-11 
+ 
+ 
+QUESTION 20: Find maximum values of 5 x + 2y, subject to the following constraints. – 2x – 3y = 
+– 6 ; x – 2y = 2 ; 6x + 4y = 24 ; – 3x + 2y = 3; x = 0, y = 0.  
+ 
+ 
+Sol: See IGNOU Block-4, Page-84, Unit-4, Example-1 
+ 
+ 
+ 

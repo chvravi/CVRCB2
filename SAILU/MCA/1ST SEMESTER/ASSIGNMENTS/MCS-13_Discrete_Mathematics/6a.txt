@@ -1,0 +1,13 @@
+How many ways are there to distribute 15 district object into 5 distinct boxes with 
+i) At least three empty box.
+number of ways to select 3 distinct boxes: 5*4*3 = 60
+---
+Number of ways to arrange 15 in the 2 remaining distinct boxes:
+15P2 = 105
+
+------------------
+Ans: 60*105 = 6300
+============================================ 
+ii) No empty box.
+15P5 = 15!/5! = 3003 ways
+============================================

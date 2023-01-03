@@ -1,0 +1,237 @@
+<HTML>
+
+<HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+function validate(){
+
+if(document.getElementById('creditnumber').value=="" || document.getElementById('creditnumber').value==null){
+
+alert("Please Enter Your Credit Card Number");
+
+document.getElementById('creditnumber').focus();
+
+return false;
+
+}
+
+if(document.getElementById('creditnumber').value.length=="18" && document.getElementById('credittype').value=="American Express"){
+
+alert("Your Payment Has Been Successfully received");
+
+document.getElementById('creditnumber').focus();
+
+return false;
+
+}
+
+if(document.getElementById('creditnumber').value.length=="17" && document.getElementById('credittype').value=="Carte Blanche"){
+
+alert("Your Payment Has Been Successfully received");
+
+document.getElementById('creditnumber').focus();
+
+return false;
+
+}
+
+if(document.getElementById('creditnumber').value.length=="19" && document.getElementById('credittype').value=="Discover"){
+
+alert("Your Payment Has Been Successfully received");
+
+document.getElementById('creditnumber').focus();
+
+return false;
+
+}if(document.getElementById('creditnumber').value.length=="17" && document.getElementById('credittype').value=="Diner's Club"){
+
+alert("Your Payment Has Been Successfully received");
+
+document.getElementById('creditnumber').focus();
+
+return false;
+
+}
+
+if(document.getElementById('creditnumber').value.length=="18" && document.getElementById('credittype').value=="enRoute"){
+
+alert("Your Payment Has Been Successfully received");
+
+document.getElementById('creditnumber').focus();
+
+return false;
+
+}
+
+if(document.getElementById('creditnumber').value.length=="19" && document.getElementById('credittype').value=="JCB"){
+
+alert("Your Payment Has Been Successfully received");
+
+document.getElementById('creditnumber').focus();
+
+return false;
+
+}
+
+if(document.getElementById('creditnumber').value.length=="19" && document.getElementById('credittype').value=="MasterCard"){
+
+alert("Your Payment Has Been Successfully received");
+
+document.getElementById('creditnumber').focus();
+
+return false;
+
+}
+
+if(document.getElementById('creditnumber').value.length=="19" && document.getElementById('credittype').value=="Solo"){
+
+alert("Your Payment Has Been Successfully received");
+
+document.getElementById('creditnumber').focus();
+
+return false;
+
+}
+
+if(document.getElementById('creditnumber').value.length=="19" & document.getElementById('credittype').value=="Switch"){
+
+alert("Your Payment Has Been Successfully received");
+
+document.getElementById('creditnumber').focus();
+
+return false;
+
+}if(document.getElementById('creditnumber').value.length=="19" & document.getElementById('credittype').value=="Visa"){
+
+alert("Your Payment Has Been Successfully received");
+
+document.getElementById('creditnumber').focus();
+
+return false;
+
+}
+
+if(document.getElementById('creditnumber').value!=""){
+
+alert("Credit card number has invalid format");
+
+document.getElementById('creditnumber').focus();
+
+return false;
+
+}
+
+}
+
+</SCRIPT>
+
+</HEAD>
+
+<BODY>
+
+<table cellspacing="2" cellpadding="2" width="762" align="center">
+
+<tr>
+
+<td align="center">
+
+<form action="process.php" method="post">
+
+<table cellspacing="2" cellpadding="2" width="100%" align="center">
+
+<tr>
+
+<td align="center">
+
+<table cellspacing="2" cellpadding="2" width="60%" align="center">
+
+<tr>
+
+<td align="left">
+
+Choose Your Payment Type: &nbsp;
+
+</td>
+
+<td align="center">
+
+<select name="credittype" id="credittype">
+
+<option value="American Express">American Express</option>
+
+<option va>Carte Blanche</option>
+
+<option>Discover</option>
+
+<option>Diner's Club</option>
+
+<option>enRoute</option>
+
+<option>JCB</option>
+
+<option>MasterCard</option>
+
+<option>Solo</option>
+
+<option>Switch</option>
+
+<option>Visa</option>
+
+<script>
+
+</script>
+
+</select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">
+
+Enter Your Credit Card Number: &nbsp;
+
+</td>
+
+<td align="center">
+
+<input type="text" name="creditnumber" id="creditnumber">
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center"><input type="submit" name="payment" value="Payment" onclick="return validate()"></td>
+
+</tr>
+
+<tr>
+
+<td align="center"><A HREF="frame3.html">Back >></A></td>
+
+</tr>
+
+</table>
+
+</form>
+
+</td>
+
+</tr>
+
+</table>
+
+</BODY>
+
+</HTML>

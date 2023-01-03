@@ -1,0 +1,655 @@
+   
+  
+  
+    Page-1 
+Course Code      :  MCSL-016 
+Course Title      :  Internet Concepts and Web Design (Lab Course) 
+Assignment Number    :  BCA (IV)/L-016/Assignment/2016 
+April, 2016 (For January 2016 Session) 
+1.  Create a website that provides information about historical tourist places 
+around your city. Your site should include the following pages. (30 Marks) 
+(a)  The Home page should consist of four areas containing the following information:  
+? TOP area containing the name of your city and a photograph of a historical 
+monument. Make sure that you use a good picture format. 
+? LEFTMENU area containing the links to other pages - these links should 
+include - My City, List of Monuments, History of the City, Important 
+Addresses and Feedback. 
+? The CONTENT area of this Home page should display information like 
+population, and climatic conditions etc. about your city. 
+? The COPYRIGHT area should display the copyright information and current 
+date and time. You need to make sure that the TOP, LEFT MENU and  
+? COPYRIGHT area is same across all the pages of the website. 
+ANs: 
+ 
+<html> 
+<head> 
+<link rel="stylesheet" type="text/css" href="css1.css"> 
+</head> 
+<body> 
+<table width="100%"> 
+<tr> 
+<td colspan="2" class="top">DELHI <span style="font-size:20px;padding:5px 
+45px"><img src="image\delhi1.png" height="150"><img src="image\delhi2.jpg" 
+height="150"></span></td> 
+</tr> 
+<tr> 
+<td class="left"> 
+<div id="nav"> 
+<ul> 
+<li><a href="home.html">Home</a></li> 
+ 
+<li><a href="mycity.html">My City</a></li> 
+ 
+<li><a href="monuments.html">List of Monuments</a></li> 
+   
+  
+  
+    Page-2 
+ 
+<li><a href="history.html">History of  the City</a></li> 
+ 
+<li><a href="address.html">Important Addresses </a></li> 
+<li><a href="feedback.html">Feedback </a></li> 
+</ul> 
+</div> 
+ 
+</td> 
+<td class="right"> 
+ 
+<h1>Government</h1> 
+ 
+ • Lt. GovernorNajeeb Jung <br> 
+ 
+ • Chief Minister Arvind Kejriwal (AAP) <br> 
+ 
+ • Legislature Unicameral (70 seats) <br> 
+ 
+ • Parliamentary constituency 7 <br> 
+ 
+ • High Court Delhi High Court <br> 
+ 
+<h1>Area</h1> 
+ 
+ • Union Territory 1,484.0 km2 (573.0 sq mi) <br> 
+ 
+ • Water 18 km2 (6.9 sq mi) <br> 
+ 
+ • Metro 46,208 km2 (17,841 sq mi) <br> 
+ 
+ • Elevation0–125 m (0–409 ft) <br> 
+ 
+<h1>Population (2011)</h1> 
+ • Union Territory 16,314,838 <br> 
+ 
+ • Rank 2nd <br> 
+ 
+ • Density 11,297.01/km2 (29,259.12/sq mi) <br> 
+</td> 
+   
+  
+  
+    Page-3 
+</tr> 
+<tr> 
+<td class="bottom">&copy MY city 2015 
+<br>[ Last Update on 29th Aug, 2015 ]</td> 
+</tr> 
+</table> 
+</body> 
+</html> 
+ 
+(b)  My City page should give information about the objectives, festivals of the 
+city etc. in some structured format in the CONTENT area. You may use lists or 
+tables for the same. 
+Ans: 
+<html> 
+<head> 
+ 
+<link rel="stylesheet" type="text/css" href="css1.css"> 
+ 
+</head> 
+<body> 
+<table width="100%"> 
+<tr> 
+<td colspan="2" class="top">DELHI <span style="font-size:20px;padding:5px 
+45px"><img src="image\delhi1.png" height="150"><img src="image\delhi2.jpg" 
+height="150"></span></td> 
+</tr> 
+<tr> 
+<td class="left"> 
+<div id="nav"> 
+<ul> 
+<li><a href="home.html">Home</a></li> 
+ 
+<li><a href="mycity.html">My City</a></li> 
+ 
+<li><a href="monuments.html">List of Monuments</a></li> 
+ 
+<li><a href="history.html">History of  the City</a></li> 
+ 
+<li><a href="address.html">Important Addresses </a></li> 
+<li><a href="feedback.html">Feedback </a></li> 
+   
+  
+  
+    Page-4 
+</ul> 
+</div> 
+ 
+</td> 
+<td class="right"> 
+ 
+<h1>Some of the major festivals of Delhi are:<h1> 
+ 
+<h2>Bhai Dooj Festival</h2> 
+<p> Bhai Dooj Festival is celebrated in the month of October or November. The date 
+is not fixed and is calculated every year by the Pandits. It falls on the new moon night, 
+approximately one day after the festival of Diwali. The name Bhai Dooj, with "bhai" 
+meaning brother and "dooj" meaning the second day after the new moon (the day of 
+the festival), literally means the day of the brother. Bhai Dooj is also known as the 
+festival of Tikka. 
+ 
+<h2>Chhat Festival</h2> 
+ The Chhath Festival is basically a major festival of Bihar, but is celebrated with equal 
+devotion in Delhi as well. This festival, which honors the Sun God, is celebrated six 
+days after the festival of Diwali. The Chhath puja celebrations do not include much 
+fanfare, rather, it is a festival of prayer and propitiation that is undertaken with 
+somberness. 
+ 
+<h2>Christmas in Delhi</h2> 
+ Christmas is celebrated every year on 25th December. It commemorates the birth 
+anniversary of Jesus Christ, the founder of Christianity. Conventionally, it involves 
+decorating a fir tree, singing Christmas carols and exchanging gifts with loved ones. 
+The main celebrations of Christmas take place on the Christmas Eve, that is December 
+24.  
+ 
+<h2>Diwali Festival</h2> 
+ Diwali Festival is also known by the name of "the festival of lights". One of the major 
+Hindu festivals, it is celebrated almost in each and every city of India. There is a 
+legend associated with this festival. It is believed that Demon King Ravana had 
+kidnapped Sita Mata, the wife of Lord Rama, while they were undergoing their 14 
+years of exile.  
+ 
+<h2>Durga Puja Festival</h2> 
+ Durga Puja festival is one of the major festivals celebrated by the Bengalis. The 
+festival is dedicated to Ma Durga, the Goddess of power, also known as Shakti. It is 
+   
+  
+  
+    Page-5 
+believed that festival of Durga Puja commemorates the victory of the goddess over the 
+demon Mahishasura.  
+ 
+<h2>Dussehra Festival</h2> 
+ Hindus throughout India celebrate Dussehra Festival, although by different names. 
+Also known as Vijaya Dashmi ('Vijay' meaning 'victory' and 'Dashmi meaning 'tenth 
+day'), Dussehra festival has a number of legends associated with it. It is believed that 
+it was on this day that Lord Rama killed the demon king Ravana and took over his 
+empire, Lanka.  
+ 
+<h2>Eid Festival</h2> 
+ Eid festival has a lot of significance for Muslims all over the world. The celebration 
+of this festivitiy takes place twice a year. According to the Muslim calendar, for the 
+first time Eid falls somewhere around the month of Zil-Haji and is known as Eid-ul-
+Zuha. Eid-ul-Zuha celebrations in New Delhi, the capital of India, take place with 
+great pomp and show. . 
+ 
+<h2>Guru Nanak Jayanti</h2> 
+ Guru Nanak Jayanti festival commemorates the birthday of Guru Nanak Dev the 
+founder of the Sikh faith. Guru Nanak Dev was born in the Hindu Month of Kartik 
+(October-November) in 1469 AD at Talvandi, almost 30 miles from Lahore. Sikhs 
+celebrate the birthdays of all the ten gurus and call them Gurpurabs.  
+ 
+<h2>Holi Festival</h2> 
+ Holi festival is celebrated in the Hindu month of Phagun (Month), on a full moon 
+day. It is the festival of colors and involves smearing each other with gulal (colors) 
+and throwing water on each other. There are a number of legends associated with the 
+origin of the Hindu festival of Holi. One legend has it that on this day Holika, an evil 
+demoness, tried to burn Prahlad, a devotee of Lord Vishnu.  
+ 
+<h2>Independence Day</h2> 
+ Independence Day in India commemorates 15th August, the day on which India 
+attained independence. After remaining under British rule for over 100 years, India 
+finally regained freedom in the year 1947. Declared a National holiday, the 
+Independence Day is celebrated throughout the country with much fanfare and gaiety. 
+ 
+<h2>Janmashtami Festival</h2> 
+ Janmashtami Festival is celebrated to commemorate the birth anniversary of Lord 
+Krishna. It falls in the month of August or September, with the date being calculated 
+   
+  
+  
+    Page-6 
+every year. On the day of Janmashtami, people fast until midnight and thereafter 
+worship the image or statute of Lord Krishna at home or temple. . 
+ 
+</td> 
+</tr> 
+<tr> 
+<td class="bottom">&copy MY city 2015 
+<br>[ Last Update on 29th Aug, 2015 ]</td> 
+</tr> 
+</table> 
+</body> 
+</html> 
+ 
+(c)  List of Monuments page lists the names of important Monuments in the 
+CONTENT area. These names should be hyperlinked to History of City page.  
+Ans: 
+<html> 
+<head> 
+ 
+<link rel="stylesheet" type="text/css" href="css1.css"> 
+ 
+</head> 
+<body> 
+<table width="100%"> 
+<tr> 
+<td colspan="2" class="top">DELHI <span style="font-size:20px;padding:5px 
+45px"><img src="image\delhi1.png" height="150"><img src="image\delhi2.jpg" 
+height="150"></span></td> 
+</tr> 
+<tr> 
+<td class="left"> 
+<div id="nav"> 
+<ul> 
+<li><a href="home.html">Home</a></li> 
+ 
+<li><a href="mycity.html">My City</a></li> 
+ 
+<li><a href="monuments.html">List of Monuments</a></li> 
+ 
+<li><a href="history.html">History of  the City</a></li> 
+   
+  
+  
+    Page-7 
+ 
+<li><a href="address.html">Important Addresses </a></li> 
+<li><a href="feedback.html">Feedback </a></li> 
+</ul> 
+</div> 
+ 
+</td> 
+<td class="right"> 
+ 
+<h1>List of State Protected Monuments in Delhi</h1> 
+ 
+<ul> 
+<li>N-DL-12 Ajmeri Gate Bazar Ajmeri Gate  Delhi 28 Degree 38 46 N 77 Degree 13 
+26 E 
+<li> 
+N-DL-13 Alipur Cemetery Delhi-Alipur Camping group.  Delhi   
+<li> 
+N-DL-162 Ancient Mosque Palam  Delhi 28 Degree 35 34 N 77 Degree 04 41 E  
+<li> 
+N-DL-64 Arab Sarai Patti, Ghiapur in Hauz Inderpat Humayun's Tomb complex Delhi 
+28 degree 35 26 N 77 Degree 14 50 E  
+<li> 
+N-DL-150 Ashoka rock Edict Kailash Hill, East of Kailash colony  Delhi 28 Degree 
+33 28 N 77 Degree 15 24 E  
+</ul> 
+</td> 
+</tr> 
+<tr> 
+<td class="bottom">&copy MY city 2015 
+<br>[ Last Update on 29th Aug, 2015 ]</td> 
+</tr> 
+</table> 
+</body> 
+</html> 
+ 
+(d)  History of City page should highlight the history of city as well as important 
+monuments in the CONTENT area. 
+Ans: 
+ 
+<html> 
+   
+  
+  
+    Page-8 
+<head> 
+ 
+<link rel="stylesheet" type="text/css" href="css1.css"> 
+ 
+</head> 
+<body> 
+<table width="100%"> 
+<tr> 
+<td colspan="2" class="top">DELHI <span style="font-size:20px;padding:5px 
+45px"><img src="image\delhi1.png"  
+ 
+height="150"><img src="image\delhi2.jpg" height="150"></span></td> 
+</tr> 
+<tr> 
+<td class="left"> 
+<div id="nav"> 
+<ul> 
+<li><a href="home.html">Home</a></li> 
+ 
+<li><a href="mycity.html">My City</a></li> 
+ 
+<li><a href="monuments.html">List of Monuments</a></li> 
+ 
+<li><a href="history.html">History of  the City</a></li> 
+ 
+<li><a href="address.html">Important Addresses </a></li> 
+<li><a href="feedback.html">Feedback </a></li> 
+</ul> 
+</div> 
+ 
+</td> 
+<td class="right"> 
+ 
+The Indian capital city of delhiDelhi has a long history, and has been an important 
+political centre of India as the capital of several empires. Much of Delhi's ancient 
+history finds no record and this may be regarded as a lost period of its history. 
+Extensive coverage of Delhi's history begins with the onset of the Delhi Sultanate in 
+the 12th century. Since then, Delhi has been the centre of a succession of mighty 
+empires and powerful kingdoms, making Delhi one of the longest serving Capitals and 
+one of the oldest inhabited cities in the world.It is considered to be a city built,  
+   
+  
+  
+    Page-9 
+destroyed and rebuilt several times, as outsiders who successfully invaded the Indian 
+Subcontinent would ransack the existing capital city in Delhi, and those who came to 
+conquer and stay would be so impressed by the city's strategic location as to make it 
+their capital and rebuild it in their own way.The core of Delhi's tangible heritage is 
+Hindu,  
+Islamic (spanning over seven centuries of Islamic rule over the city) with some 
+British-era architecture in Lutyens'  
+ 
+Delhi dating to the British rule in India. 
+ 
+</td> 
+</tr> 
+<tr> 
+<td class="bottom">&copy MY city 2015 
+<br>[ Last Update on 29th Aug, 2015 ]</td> 
+</tr> 
+</table> 
+</body> 
+</html> 
+(e)  Important Addresses page should provide information about the important 
+Government and public offices in the CONTENT area. 
+Ans: 
+<html> 
+<head> 
+<link rel="stylesheet" type="text/css" href="css1.css"> 
+</head> 
+<body> 
+<table width="100%"> 
+<tr> 
+<td colspan="2" class="top">DELHI <span style="font-size:20px;padding:5px 
+45px"><img src="image\delhi1.png" height="150"><img src="image\delhi2.jpg" 
+height="150"></span></td> 
+</tr> 
+<tr> 
+<td class="left"> 
+<div id="nav"> 
+<ul> 
+<li><a href="home.html">Home</a></li> 
+ 
+<li><a href="mycity.html">My City</a></li> 
+   
+  
+  
+    Page-10 
+ 
+<li><a href="monuments.html">List of Monuments</a></li> 
+ 
+<li><a href="history.html">History of  the City</a></li> 
+ 
+<li><a href="address.html">Important Addresses </a></li> 
+<li><a href="feedback.html">Feedback </a></li> 
+</ul> 
+</div> 
+ 
+</td> 
+<td class="right"> 
+ 
+<h1> Important Address </h1> 
+<ul> 
+<li> Anti-Dowry Cell Kasturba Gandhi Road, Canning Lane, New Delhi-110001 
+23384904; 23382687  
+<li> All India Women's Conference 6-Bhagwan Dass Road, New delhi-110001 
+23389680; 23389314; 23381165  
+<li> Arya Kanya Sadan 1488-Patadi House, Daryaganj, New Delhi - 110002 
+23279593; 23260428; 23272084  
+<li> Delhi Mahila Kalyan Samiti 48, Institutional Area(Hny. Sect.), Near D-Block, 
+Janakpuri, Delhi- 110058 25552851  
+<li> Indian Widows Welfare Association Plot-1, Near Dilli Ghat Bazar, West Kidwi 
+Nagar, New Delhi-110023 26872892  
+<li> Bhartiya Mahila Samaj C-160, Dayanand Colony, Lajpat Nagar IV, New Delhi-
+110024 26415071  
+<li> War Widows Association 18/1, Aruna Asaf Ali Marg, Qutub Institutional Area, 
+New Delhi-110067 26965825/494  
+<li> Shakti Shalini J-13, Jangpura Extn, New Delhi-110014 24312483; 24310741  
+<li> Bhartiya Patita Uddhar Sabha WZ-10(22), Raja Garden, Najafgarh Road, New 
+Delhi-110015 25455999; 25121316; 25122329  
+</ul> 
+ 
+</td> 
+</tr> 
+<tr> 
+<td class="bottom">&copy MY city 2015 
+<br>[ Last Update on 29th Aug, 2015 ]</td> 
+</tr> 
+</table> 
+   
+  
+  
+    Page-11 
+</body> 
+</html> 
+(f)  Feedback page should have a feedback form in the CONTENT area. This 
+form should consist of at least one text box, radio buttons, list boxes etc. This 
+page should get the feedback about the site. You must use JavaScript to check 
+that all the required fields are filled by the visitor. 
+Ans: 
+<html> 
+<head> 
+ 
+<link rel="stylesheet" type="text/css" href="css1.css"> 
+<script language="javascript"> 
+function validate() 
+{ 
+if(f1.vname.value="" || f1.sub.value=="" || f1.cont.value="" || f1.complain.value="") 
+alert ("you must fill all the field"); 
+} 
+</script> 
+</head> 
+<body> 
+<table width="100%"> 
+<tr> 
+<td colspan="2" class="top">DELHI <span style="font-size:20px;padding:5px 
+45px"><img src="image\delhi1.png" height="150"><img src="image\delhi2.jpg"  
+height="150"></span></td> 
+</tr> 
+<tr> 
+<td class="left"> 
+<div id="nav"> 
+<ul> 
+<li><a href="home.html">Home</a></li> 
+<li><a href="mycity.html">My City</a></li> 
+<li><a href="monuments.html">List of Monuments</a></li> 
+<li><a href="history.html">History of  the City</a></li> 
+<li><a href="address.html">Important Addresses </a></li> 
+<li><a href="feedback.html">Feedback </a></li> 
+</ul> 
+</div> 
+</td> 
+<td class="right"> 
+   
+  
+  
+    Page-12 
+<h1> Register Your Complain</h1> 
+<form  name="f1"> 
+<p>Name    : <input type="text" name="vname"/> 
+<p>Subject  : <input type="text" name="sub"/> 
+<p>Contact NO    : <input type="text" name="cont"> 
+<p>Message       : <textarea name="complain" rows="5"></textarea> 
+<input type="submit" value="register" onclick="validate()"/> 
+</td> 
+</tr> 
+<tr> 
+<td class="bottom">&copy MY city 2015 
+<br>[ Last Update on 29th Aug, 2015 ]</td> 
+</tr> 
+</table> 
+</body> 
+</html> 
+ 
+Css1.Css File 
+.top{ 
+ padding: 2% 200; 
+ background:top repeat-x #f0fF00; 
+ border-bottom: solid 1px #001C32; 
+ font-size:30pt; 
+ color:#FF0066; 
+ font-weight:bold; 
+} 
+h1 { 
+    color: maroon; 
+    margin-left: 40px; 
+}  
+ 
+ol li,p { 
+    color: black; 
+    margin-left: 60px; 
+    font-size:15pt; 
+}  
+ 
+.left 
+{ 
+   
+  
+  
+    Page-13 
+padding: 5 5 5 5; 
+width:200px; 
+position:relative; 
+left:3; 
+background-color:#220F21; 
+display: block; 
+float: left; 
+height:400px; 
+} 
+.right 
+{ 
+padding: 5 5 5 5; 
+width:70%; 
+position:relative; 
+left:3pt; 
+background-color:#FFFFFF; 
+display: block; 
+float: left; 
+} 
+.bottom{ 
+ padding: 1% 100; 
+ background:top repeat-x #f0fF00; 
+ border-bottom: solid 1px #001C32; 
+ font-size:15pt; 
+ color:#FF0066; 
+ font-weight:bold; 
+        text-align:center; 
+} 
+#nav { 
+    font-family: verdana; 
+    font-weight: bold; 
+    font-size: 12pt; 
+    text-align:center; 
+    position:relative; 
+    left:0px; 
+ 
+ 
+} 
+#myspan { 
+    font-family: verdana; 
+   
+  
+  
+    Page-14 
+    font-weight: bold; 
+    font-size: 12pt; 
+    text-align:center; 
+    position:relative; 
+    left:0px; 
+ 
+ 
+} 
+ #nav ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+} 
+ #nav a:link 
+ { 
+     color: #FFFFFF; 
+    text-decoration: none; 
+} 
+#nav a:activate 
+{ 
+text-decoration: none; 
+background:yellow 
+} 
+#nav a:visited 
+ { 
+    color: #FFFFFF; 
+    text-decoration: none;  
+} 
+ 
+#nav a { 
+    display: block; 
+    padding: 6px 8px; 
+} 
+ 
+#nav li { 
+    float: down; 
+    background-color:#FF0066; 
+    margin-bottom:3px; 
+position: relative; 
+   width: 200px; 
+   
+  
+  
+    Page-15 
+} 
+ 
+#nav li:hover { 
+    background-color:#1e6468; 
+} 
+ 
+2.  Write a program using VBscipt that subtracts two matrices. (This program is 
+NOT a part of website, therefore, should be created separately.) 
+Ans: 
+<HTML> 
+<HEAD> 
+<TITLE>MY VBscript </TITLE> 
+</HEAD> 
+<BODY> 
+<SCRIPT LANGUAGE="VBScript"> 
+dim mat1(1,1),mat2(1,1),mat3(1,1) 
+for i=0 to 1  
+for j=0 to 1  
+mat1(i,j)=cint(inputbox("enter the number")) 
+next  
+next  
+for i=0 to 1 step 1 
+for j=0 to 1 step 1 
+mat2(i,j)=cint(inputbox("enter the number")) 
+next 
+next  
+for i=0 to 1 step 1 
+for j=0 to 1 step 1  
+mat3(i,j)=mat1(i,j)-mat2(i,j) 
+next  
+next 
+ 
+</SCRIPT> 
+ 
+</BODY> 
+</HTML> 
+ 

@@ -1,0 +1,5 @@
+D:\SAILU\Averages\Averages\bin\Debug\Averages.exe
+D:\SAILU\Averages\Averages\bin\Debug\Averages.pdb
+D:\SAILU\Averages\Averages\obj\x86\Debug\Averages.exe
+D:\SAILU\Averages\Averages\obj\x86\Debug\Averages.pdb
+D:\SAILU\Averages\Averages\obj\x86\Debug\Averages.csprojResolveAssemblyReference.cache

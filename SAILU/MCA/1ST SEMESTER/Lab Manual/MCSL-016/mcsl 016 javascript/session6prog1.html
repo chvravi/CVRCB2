@@ -1,0 +1,14 @@
+<html>
+<head>
+</head>
+  <script language="JavaScript">
+     function getTimes(){
+     	var dt=new Date();form1.t.value= dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();window.setTimeout("getTimes()",1000);
+     	}
+     	</script>
+     	<body onLoad="getTimes()">
+     	<form name="form1" method="post" action="">
+     	<input name="t" type="text" id="t">
+     	</form>
+     	</body>
+     	</html>

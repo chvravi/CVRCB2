@@ -1,0 +1,53 @@
+<htm>
+<head>
+<script> 
+/*Set status and title of the page*/
+window.status="Welcome to the scrolling text..........       " ;
+document.title="Scrolling Program HTML Testing.......       ";
+ 
+/*function scroll*/
+function scr(){
+	msge=document.title;
+	msg=window.status;
+	window.status=msg.substring(1,msg.length)+msg.substring(0,1);
+	//document.title=msge.substring(1,msge.length)+msge.substring(0,1);
+	theTimer=setTimeout("scr()",100)
+}
+ 
+scr();
+ 
+document.write("<h1>TEXT SCROLL TESTING</h1>");
+/*Initial tt*/
+tt=setTimeout("",100);
+ 
+/*function button click, whether right or left according to the parameter*/
+function bnt_Click(LR){
+	txt=document.frmText.txtshow.value;
+	if(LR=='L')
+	{
+		document.frmText.txtshow.value=
+			txt.substring(1,txt.length)+
+			txt.substring(0,1);	
+	}
+	else	
+	{
+		document.frmText.txtshow.value=	
+			txt.substring(txt.length-1,txt.length)+	
+			txt.substring(0,txt.length-1);
+	}
+ 	tt=setTimeout("bnt_Click('"+LR+"')",100);
+	}
+ 
+</script>
+</head>
+ 
+<body>
+<form name=frmText>
+<input name=txtshow size=50 value="Text scrolling here.......         " onClick="bnt_Click('L');">
+<br />
+<!--<input type=button name=bntL value="Left" onClick="window.clearTimeout(tt);bnt_Click('L');" >
+<input type=button name=bntS value="Stop" onClick="window.clearTimeout(tt);">
+<input type=button name=bntR value="Right" onClick="window.clearTimeout(tt);bnt_Click('R');" > -->
+</form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Factorial Prime</title>
+<script language="vbscript">
+dim result
+function factcal()
+ num = CInt(document.getElementById("value").value)
+ p_check = 0
+ for i=2 to num/2 
+ if num mod i = 0 then
+ p_check = 1 
+ end if 
+ next
+ if p_check = 1 then
+ msgbox "Not a prime number",0,"Factorial"
+ else
+	f=1
+	do
+	   f=f*num
+	   num=num-1
+	loop while num>=1
+	MsgBox f,0,"Factorial"
+ end if
+end function
+
+
+
+document.getElementById("demo").innerHTML=result
+</script>
+</head>
+
+<body>
+<input type="text" placeholder="Enter a number" id="value"/>
+<input type="submit" value="Calculate Factorial" onClick="factcal()"/>
+</body>
+</html>

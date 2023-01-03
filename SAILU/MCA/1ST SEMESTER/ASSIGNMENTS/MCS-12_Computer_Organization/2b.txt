@@ -1,0 +1,36 @@
+http://cssimplified.com/computer-organisation-and-assembly-language-programming/a-computer-has-64-words-ram-with-a-word-size-of-16-bits-and-a-cache-memory-of-8-blocks-with-block-size-of-32-bits-9m-jun2008
+
+
+Main memory Size = 16*2(20) Words
+
+Main Memory word size = 16 bits
+
+Cache Memory Size = 8 Blocks
+
+Cache Memory Block size = 32 bits
+
+ 1 Block of Cache = 2 Words of RAM
+
+ Memory location address 25 is equivalent to Block address 12.
+
+ Total number of possible Blocks in Main Memory = 64/2 = 32 blocks
+
+Associative Mapping:
+
+The block can be anywhere in the cache.
+
+Direct Mapping:
+
+Size of Cache = 8 blocks
+
+Location of Block 12 in Cache = 12 modulo 8 = 4
+
+2 Way set associative mapping:
+
+Number of blocks in a set = 2
+
+Number of sets = Size of Cache in blocks / Number of blocks in a set
+
+= 8 / 2 = 4
+
+Block 12 will be located anywhere in (12 modulo 4) set, that is set 0.

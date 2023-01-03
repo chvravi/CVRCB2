@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<script language="JavaScript">
+    function messages() {
+        input_box = confirm("Do You Want a Greeting");
+        if (input_box == true) {
+            window.open("welcome.gif");
+            window.document.write("Welcome to Netscape navigator!");
+        }
+        else {
+            alert("You Have Selected No");
+        }
+    }
+</script>
+<body>
+    <form name="form1" method="post" action="">
+    <input type="submit" name="Submit" value="Submit" onclick="messages()">
+    </form>
+</body>
+</html>

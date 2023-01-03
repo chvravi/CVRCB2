@@ -1,0 +1,12 @@
+D:\SAILU\InterestCalculator\InterestCalculator\bin\Debug\InterestCalculator.exe.config
+D:\SAILU\InterestCalculator\InterestCalculator\obj\Debug\InterestCalculator.csprojResolveAssemblyReference.cache
+D:\SAILU\InterestCalculator\InterestCalculator\obj\Debug\InterestCalculator.InterestCalculator.resources
+D:\SAILU\InterestCalculator\InterestCalculator\obj\Debug\InterestCalculator.Properties.Resources.resources
+D:\SAILU\InterestCalculator\InterestCalculator\obj\Debug\InterestCalculator.csproj.GenerateResource.Cache
+D:\SAILU\InterestCalculator\InterestCalculator\bin\Debug\InterestCalculator.exe
+D:\SAILU\InterestCalculator\InterestCalculator\bin\Debug\InterestCalculator.pdb
+D:\SAILU\InterestCalculator\InterestCalculator\obj\Debug\InterestCalculator.exe
+D:\SAILU\InterestCalculator\InterestCalculator\obj\Debug\InterestCalculator.pdb
+D:\SAILU\PROGRAMS\InterestCalculator\InterestCalculator\bin\Debug\InterestCalculator.exe.config
+D:\SAILU\PROGRAMS\InterestCalculator\InterestCalculator\obj\Debug\InterestCalculator.exe
+D:\SAILU\PROGRAMS\InterestCalculator\InterestCalculator\obj\Debug\InterestCalculator.pdb

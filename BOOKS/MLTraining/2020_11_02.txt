@@ -1,0 +1,11 @@
+ML 02-Nov
+
+Linear Regression y = mx+c 	 TensorFlow
+Clustering 
+	K means algorithms (mean of standard deviation)
+	
+	One Hot Vector (Single 1 for a word )
+	
+	Word Embedding with similarity
+Similarity learning  (Similar Job Keyword extraction)
+Contextual embedding

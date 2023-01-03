@@ -1,0 +1,63 @@
+ Haritha Haram:
+ Back Ground Theme Pink ( Name of app should be from the kcr meetings.)
+ Unique number for each Plant from its tag.
+ 
+ Each Plant should have its Identity.
+ Plant Description ( TEXT) - Started with which person.
+ 
+ Uploading of Photos.
+ Village - 4 mmebers 
+ Status of plant for each 4 days.
+ 
+ 
+ Admin- collector.
+ Jagadeshwara Reddy.
+ 
+ - status is required for collector. 
+ 
+ 
+ Uploading should be from same person.
+ 
+ Normal Public:
+ No of Plants
+ 
+ ====================================
+ 1. User Registration 
+    contains user information.
+	Referral by that user and for that user.
+2. Upload Photo of Plant. (consequetive intervals once in a week)
+	
+	
+	
+	2. About the app.
+	
+	
+2. Normal User can See whole status of Number of Plants.
+at each level.
+
+3. Admin User can see Status of Each Plant.
+
+4. Plants Categorization.( group by each plant type)
+
+========================================================
+
+Apps should be viewed by schools/Colleges.
+Users should be mostly from students.
+
+=============================
+040 48555512
+Director - SomeShekar
+Sridhar - HR Head
+Mekala Nagender - Managing Operations ()
+
+
+http://tsemploymentexchange.com/
+
+PMYK
+NSDC
+ 
+
+
+ 
+ 
+ 

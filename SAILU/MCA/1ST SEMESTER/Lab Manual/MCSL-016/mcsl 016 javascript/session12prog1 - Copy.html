@@ -1,0 +1,24 @@
+<html>
+<head>
+</head>
+<html>
+<head>
+</head>
+<script language="JavaScript">
+    var ar = "Scrolling Text";
+    var space = "";
+    var i;
+    i = 1;
+    function count() {
+        var cont, k = 0; cont = "";
+        while (k <= i) { cont = cont + " "; k++; }
+        status = cont + ar; i++; if (i > 100) i = 0;
+        window.setTimeout("count()", 5);
+    }
+</script>
+<body onload="count()">
+</body>
+</html>
+<body>
+</body>
+</html>

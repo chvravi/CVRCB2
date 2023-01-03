@@ -1,0 +1,30 @@
+<html>
+<head>
+</head>
+<script language="JavaScript">
+    function check() {
+        if (form1.t.value == "") {
+            alert("Enter The Text");
+            form1.t.focus();
+        }
+        else {
+            var email, a, d, diff, k, c; email = form1.t.value;
+            a = email.indexOf('@');
+            d = email.indexOf('.');
+            diff = parseInt(d) - parseInt(a);
+            k = parseInt(d) + 1;
+            c = email.charAt(k);
+            if (a < 1 || diff <= 1 || c == "") {
+                alert("Invalid Email ID");
+                form1.t.focus();
+            }
+        }
+    }
+</script>
+<body>
+    <form name="form1" method="post" action="">
+    Enter Email ID<input name="t" type="text" id="t">
+    <input type="submit" name="Submit" value="Submit" onclick="check()">
+    </form>
+</body>
+</html>

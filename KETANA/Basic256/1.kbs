@@ -1,0 +1,4 @@
+FOR  i = 0 to 9
+	PRINT " Hello Ketana ";
+	PRINT i;
+	NEXT i

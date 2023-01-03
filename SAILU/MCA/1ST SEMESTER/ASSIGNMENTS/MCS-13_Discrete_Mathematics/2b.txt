@@ -1,0 +1,8 @@
+(i)
+If a universal statement is a statement that is true if, and only if, it is true for every predicate variable within a given domain (as stated above), then logically it is false if there exists even one instance which makes it false. As discussed before, the statement "All birds fly." is false. But its negation is not "No birds fly." (also patently false). Instead, the correct negation will be "Some birds do not fly." Symbolically:
+
+~(All birds fly)		Some birds do not fly.
+or	
+~(b B | Q(b))		b B | ~Q(b)
+ 
+

@@ -1,0 +1,6 @@
+Duality Principle:
+The duality property of Boolean algebra state that all binary expressions remain valid when following two steps are performed:
+Step 1 :  Interchange OR and AND operators.
+Step 2 :  Replace all 1’s by 0’s and 0’s by 1’s.
+
+ For example: consider the expression 0+0=0. The dual of this expression is obtained by replacing + with . and 0 by 1. i.e., 1.1=1 is dual of 0+0=0

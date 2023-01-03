@@ -1,0 +1,12 @@
+#To draw top portion of the car
+Color Red
+rect 100,0,100,50
+#To draw the lower portion of the car
+Color Red
+rect 50,25,200,50
+#To draw the wheels of the car
+Color Black
+circle 100,75,25
+circle 2200,75,25
+circle 200,75,25
+circle 2200,75,50

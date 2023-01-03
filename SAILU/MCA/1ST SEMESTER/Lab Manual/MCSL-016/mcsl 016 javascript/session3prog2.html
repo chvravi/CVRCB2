@@ -1,0 +1,19 @@
+<html>
+<head>
+<script> 
+/*function button click, whether right or left according to the parameter*/
+function bnt_Click(){
+	txt=document.frmText.txtshow.value;
+		document.frmText.txtshow.value=
+			txt.substring(1,txt.length)+txt.substring(0,1);	
+ 	tt=setTimeout("bnt_Click()",100);
+	}
+</script>
+</head>
+<body>
+<form name=frmText>
+<input name=txtshow size=50 value="Text scrolling here.......         " onClick="bnt_Click();">
+<br />
+</form>
+</body>
+</html>

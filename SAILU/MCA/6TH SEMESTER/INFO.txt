@@ -1,0 +1,29 @@
+These days, recruiters and human resources professionals are flooded with applications and searching resumes often becomes a highly challenging task for them. Sifting through thousands of resumes for some of the job vacancies is something not as easy as it seems.
+
+Therefore, to ensure the act of resume search becomes easier through the stacks of applications received on a daily basis, organizations have long resorted to Applicant Tracking Systems (ATS), and of late, they are focusing on more advanced HR technology to make the process of recruitment and hiring simpler.
+
+Resume searches have been made much simpler with the help of a technology named resume parser and the process is termed as resume parsing.
+
+So, what is resume parsing?
+
+Resume parsing is the name given to the technology that allows an employer to process resumes submitted online by extracting data from it and then converting those into appropriately structured information. To put it simply, parsing allows recruiters to search resumes in an intelligent manner and thereby focus on the right candidate.
+
+How does resume parsing benefit recruiters?
+
+Resume parsing technology helps create recruiters and HR professionals, a more convenient resume application as well as a screening process. It allows recruiters to organize resume data electronically by implementing semantic search technology in the background.
+
+Key measures of a good resume parser
+
+Needless to say, to make resume searches simpler and easier, there are some steps or features, which distinguishes a good resume parser from others. Some of the most advanced resume parsers possess the ability to even extract references, candidates’ interests/hobbies, desired location and compensation, demographics and other related information, just by implementing the process of resume searching.
+
+
+human resources professionals are flooded with applications and searching resumes often becomes a highly challenging task for them. So using Resume parsing technology helps create recruiters and HR professionals, a more convenient resume application as well as a screening process. It allows recruiters to organize resume data electronically by implementing semantic search technology in the background.
+
+
+The Visual Studio 2015 Preview included many new features that enhanced the way developers work with everything from the web and desktop to mobile apps. Several features have had the spotlight, such as gesture support in the editor, C++ enhancements and the new Android emulator.
+
+C# is a modern, general-purpose, object-oriented programming language developed by Microsoft and approved by European Computer Manufacturers Association (ECMA) and International Standards Organization (ISO)
+
+In today’s recruiting world social media recruiting and online recruitment have become the order of the day. Web sources like social networking sites, job boards, blogs, professional networking sites, wiki, blogs, forums, search engines, etc. have now become the hunting grounds for recruiters to look for resumes. However, the challenge here is how to parse resumes and transfer the candidate information into the database in a more structured manner.
+
+Surveys reveal that recruiters spend most of their valuable recruiting time to extract resumes and transfer applicant’s details to the database. It is one of the reasons that smart recruiters invest in Resume Parsing software to make the most of their opportunities.

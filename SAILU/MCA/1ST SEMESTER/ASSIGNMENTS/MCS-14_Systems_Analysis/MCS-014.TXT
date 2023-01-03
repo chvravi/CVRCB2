@@ -1,0 +1,163 @@
+   
+  
+  
+    Page-1 
+MCS-014 
+Systems Analysis and Design 
+ 
+Question [1]. Develop SRS for Grade Card Generation System for a University. SRS should be 
+as per IEEE standard SRS template. Make necessary assumptions.  
+Ans:- 
+[1]Introduction  
+Grade card Generation System is very useful for University. It helps to prepare students grade 
+card using an automated system. 
+1.1 Purpose  
+The purpose of this SRS document is to specify software requirements of the proposed system. 
+The main purpose of the system is to automate the task carried out by different peoples in the 
+organization to perform the exam form submission. 
+1.2 Project Scope  
+This project’s aim is to automate the system by validating student’s details. The data used by the 
+system is stored in a database that will be the centre of all information held about students and 
+exams. 
+? Manage large number of student details.  
+? Manage all details of student who registered for the course and send appropriate details 
+about the course to the students account.  
+? View grades details of the students.  
+1.3 Definitions, Acronyms and Abbreviations:  
+Personal details: Details of candidate such as name, qualification, phone number, address, e-
+mail address etc.  
+HTML: Hypertext Markup Language is a markup language used to design static web pages.  
+JSP: Java Server Page. 
+SQL: Structured Query Language 
+1.4 References: 
+IEEE SRS Format  
+http://www.jnu.ac.in/ 
+1.5 Technologies used:  
+MySQL Server 
+Web Server: Tomcat 
+J2EE: Application Architecture (Sun Microsystems)  
+1.6 Overall Description  
+It will describe major components of the system, interconnection and external interfaces. 
+2. Overall Description 
+2.1 Product Perspective 
+Disclaimer:  This Assignment is prepared by our students. 
+The Institution and publisher are not responsible for any 
+omission and errors. 
+ 
+   
+  
+  
+    Page-2 
+ 
+2.2 Software Interface:  
+Client on Internet: Web Browser, Operating System   
+Client on Intranet: Client Software, Web Browser, Operating System ( 
+Web Server: Tomcat, Operating System 
+ 
+2.3 Hardware Interface: 
+Client Side 
+Processor  :  Pentium-IV 
+RAM  : 512MB 
+Hard Disk : 80GB 
+Server Side 
+Processor  :  Pentium-IV 
+RAM  : 2GB 
+Hard Disk : 320GB 
+2.4 Communication Interface:  
+Client on Internet will be using HTTP/HTTPS protocol.  
+Client on Intranet will be using TCP/IP protocol.  
+2.5 Product Function: 
+Candidate form Submission: In this module candidate’s exam’s form details & 
+payment details will be stored in database automatically. 
+2.6 User Characteristics:  
+End User: - Every user should be comfortable of working with computer and net 
+browsing. She/he must have basic knowledge of English too.  
+Administrators: - Authorized by Institution to maintain Security. 
+ 
+2.7 Constraints:  
+? GUI is only in plain English.  
+? Login and password is used for identification of authorized persons.  
+? Examination City entered should be perfect.  
+? No checks of time line are being implemented.  
+2.8 Assumptions and Dependencies:  
+ 
+? Exam Centres are already created and information’s available for use.  
+ 
+   
+  
+  
+    Page-3 
+? Roles and responsibilities are already established.  
+ 
+? Administrator is already created.  
+3. Specific Requirements: 
+3.1) Use-Case Reports:- 
+ 
+ 
+ 
+3.2 User Interface  
+The user interface for this system will have to be simple and clear. Most importantly, the 
+ages must be easy to read, easy to understand and accessible. The color scheme should be 
+appropriate to provide familiarity with the university and there should be no contrast 
+issues. 
+Application System: The application process will be as straightforward as possible, 
+using an intuitive form layout, with the necessary information being completed in stages. 
+When regarding supplementary documentation, such as degree transcripts, these could be 
+uploaded through the form in digital format, upon which it will be saved to the database 
+and associated with the application, being accessible by both the admissions office staff 
+and tutors.  
+4. Other Non-functional Requirements  
+4.1 Performance Requirements  
+Some Performance requirements identified is listed below:  
+? The database shall be able to accommodate a minimum of 10,000 records of students.  
+? The software shall support use of multiple users at a time.  
+There are no other specific performance requirements that will affect development. 
+4.2 Security Requirements 
+ 
+? Utilize certain cryptographic techniques  
+? Keep specific log or history data sets  
+? Assign certain functions to different modules  
+? Restrict communications between some areas of the program  
+? Check data integrity for critical variables  
+4.3 Portability Requirements  
+Some of the attributes of software that relate to the ease of porting the software to other host 
+machines and/or operating systems. This may include:  
+   
+  
+  
+    Page-4 
+? Java is used to develop the product. So it is easiest to port the software in any 
+environment.  
+ 
+4.4 Maintainability  
+The user will be able to reset all options and all stored user variables to default settings.  
+4.5 Reliability  
+Some of the attributes identified for the reliability is listed below:  
+? All data storage for user variables will be committed to the database at the time of entry.  
+? Data corruption is prevented by applying the possible backup procedures and techniques.  
+ 
+4.6 Usability requirements  
+Some of the usability requirements identified for this system are listed below:  
+? A logical interface is essential to an easy to use system, speeding up common tasks.  
+? Error prevention is integral to the system and is provided in a number of formats from 
+sanity checks to limiting free-text input. 
+4.7 Availability  
+? All cached data will be rebuilt during every start-up. There is no recovery of user data if 
+it is lost. Default values of system data will be assigned when necessary.  
+ 
+5. Glossary  
+? Exam Centre – List of pre-defined exam centres, from which user can select respective 
+exam centre.   
+? AP – Accounts Payable module within the People Soft Finance System. Will be used  
+Question [2] Draw the DFDs upto 3rd level for Grade Card Generation System. 
+ 
+ 
+   
+  
+  
+    Page-5 
+ 
+Question [3] Draw ERD for Grade Card Generation System. Make necessary assumptions. 
+ 
+ 
+ 

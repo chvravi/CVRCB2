@@ -1,0 +1,18 @@
+// VisualC.idl : IDL source for VisualC
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (VisualC.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(816A4FC6-DEE3-4465-9D6E-C298D86C2FD6),
+	version(1.0),
+]
+library VisualCLib
+{
+	importlib("stdole2.tlb");
+};
+

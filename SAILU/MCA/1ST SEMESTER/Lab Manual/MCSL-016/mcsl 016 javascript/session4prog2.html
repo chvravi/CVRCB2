@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script language="JavaScript">
+        var colors = new Array(6);
+        colors[0] = "#0000FF";
+        colors[1] = "#FF0000";
+        colors[2] = "#006600";
+        colors[3] = "#FFCC00";
+        colors[4] = "#00FFFF";
+        colors[5] = "#000000";
+        var i = 1;
+    </script>
+</head>
+<script language="JavaScript">
+    function changecolor() {
+        document.fgColor = colors[i]; i++;
+        if (i > 5)
+            i = 0; 
+		setTimeout("changecolor()", 100);
+    }
+</script>
+<body onload="changecolor()">
+    <div align="center">
+        <strong><font size="7">Hello</font> </strong>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+http://cssimplified.com/computer-organisation-and-assembly-language-programming/assembly-language-programs/write-a-program-in-8086-assembly-language-with-proper-comments-that-passes-a-parameter-containing-a-lower-case-alphabet-to-a-near-procedure-named-toupcase-which-converts-the-lowercase-alphabet-to-u
+
+DATA SEGMENT
+MSG1 DB 10,13,"ALPHABET PASSED IS : $"
+MSG2 DB 10,13,"ALPHABET RETURNED IS : $"
+DATA ENDS
+
+CODE SEGMENT
+ASSUME DS:DATA,CS:CODE
+START:
+MOV AX,DATA
+MOV DS,AX
+MOV BX,61H
+LEA DX,MSG1
+MOV AH,9
+INT 21H
+LEA DL,BL
+MOV AH,2
+INT 21H
+LEA DX,MSG2
+MOV AH,9
+INT 21H
+PUSH BX
+CALL TOUPCASE
+POP DX
+MOV AH,2
+INT 21H
+MOV AH,4CH
+INT 21H
+CODE ENDS
+TOUPCASE PROC NEAR
+POP AX
+POP BX
+SUB BL,20H
+PUSH BX
+PUSH AX
+RET
+TOUPCASE ENDP
+END START

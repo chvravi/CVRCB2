@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Greating Message</title>
+<script language="vbscript">
+ dim h
+ h = Hour(time)
+ if h>=0 and h<12 then
+  msgbox "Good Morning"
+ elseif h>=12 and h<15 then
+  msgbox "Good Afternoon"
+ elseif h>=15 and h<=18 then
+  msgbox "Good Evening"
+ elseif h>=19 and h<0 then
+  msgbox "Good Night"
+ end if
+</script>
+</head>
+
+<body>
+</body>
+</html>

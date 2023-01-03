@@ -1,0 +1,30 @@
+<html>
+<body>
+<script language="vbscript" type="text/vbscript">
+
+var="This is VBScript Programming"
+
+'VBScript to be replaced by MS VBScript
+document.write("Line 1: " & Replace(var,"VBScript","MS VBScript") & "<br />")
+
+'VB to be replaced by vb
+document.write("Line 2: " & Replace(var,"VB","vb") & "<br />")
+
+''is' replaced by ##
+document.write("Line 3: " & Replace(var,"is","##") & "<br />")
+
+''is' replaced by ## ignores the characters before the first occurence
+document.write("Line 4: " & Replace(var,"is","##",5) & "<br />")
+
+''s' is replaced by ## for the next 2 occurences.
+document.write("Line 5: " & Replace(var,"s","##",1,2) & "<br />")
+
+''r' is replaced by ## for all occurences textual comparison.
+document.write("Line 6: " & Replace(var,"r","##",1,-1,1) & "<br />")
+
+''t' is replaced by ## for all occurences Binary comparison
+document.write("Line 7: " & Replace(var,"t","##",1,-1,0) & "<br />")
+
+</script>
+</body>
+</html>

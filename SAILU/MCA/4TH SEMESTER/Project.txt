@@ -1,0 +1,9 @@
+1. 👆🏻page
+2. Synopsis
+2.1 about project
+2.2 tools used
+2.3 info about tools
+2.4 Requirements (software & hardware)
+2.5 about endusers
+2.6 Modules in project
+2.7 Conclusion

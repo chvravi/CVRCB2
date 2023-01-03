@@ -1,0 +1,54 @@
+ANS:
+The word size is the size of the data bus on the CPU, i.e. how many bits it can access at once. 
+A 32bit CPU will have a 32bit word, a 64bit CPU will deal with 64bit words.
+
+RAM has  capacity 1 Mega words. = 1024*1024 words = 2^20 words.
+Each  word size = 32 bits or  4 bytes.
+
+1)  data input lines/output lines:
+                32 as many as the number of bits in a word
+				
+2)  address lines needed:  
+              since there are 2^20 words total,   we need 20 address lines.				
+
+============================
+https://www.quora.com/How-is-the-word-size-of-RAM-and-its-capacity-related-to-number-of-addressing-bits
+
+
+Word size is usually tied up to the CPU. The word size is the size of the data bus on the CPU, i.e. how many bits it can access at once. A 32bit CPU will have a 32bit word, a 64bit CPU will deal with 64bit words.
+
+Now the Memory capacity and addressing bits:
+
+Suppose you have a memory of 1kB( let’s keep things a bit simple here ).
+
+1kB = 1024 bytes = 2^10 bytes.
+
+Now imagine that the first address of your memory starts at 0, next address 1 and so forth. The last address would be 1023.
+
+Translating these to hex, it would be 0 to 1111111111 (1023 = 10 times 1).
+
+So basically, you’ll need 10 address lines/bits to access a memory of 1024 bytes as the last address in this case is 10bits long.
+
+See a correlation here? 1024 = 2^10.
+
+Hence, the usual rule is the take size of memory in terms of power of 2, the exponent is how many address bits you would require.
+
+So,
+
+1kB memory would require 2^10 => 10 bits to address,
+
+1MB memory would require 2^20 => 20 bits to address,
+
+
+==========
+http://brainly.in/question/807488
+
+If we want the RAM to be word addressible, then a processor with n address bits,  can address  2^n  words in the RAM.
+
+RAM has  capacity 1 Mega words. = 1024 words = 2^10 words.
+Each  word size = 32 bits or  4 bytes.
+
+1)  data input lines/output lines:
+                32 as many as the number of bits in a word
+2)  address lines needed:  
+              since there are 2^10 words total,   we need 10 address lines.

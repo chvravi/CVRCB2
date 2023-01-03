@@ -1,0 +1,752 @@
+From: <Saved by Windows Internet Explorer 7>
+Subject: Gmail - rbs exam
+Date: Wed, 3 Feb 2010 16:44:49 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CAA4F0.33860D50"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CAA4F0.33860D50
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://mail.google.com/mail/?ui=2&ik=176768250e&view=pt&search=sent&msg=1255da4c96efc8c0
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Gmail - rbs exam</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3DUTF-8">
+<STYLE type=3Dtext/css>BODY {
+	FONT-SIZE: 80%; FONT-FAMILY: arial,sans-serif
+}
+TD {
+	FONT-SIZE: 80%; FONT-FAMILY: arial,sans-serif
+}
+A:link {
+	COLOR: #0000cc
+}
+A:active {
+	COLOR: #0000cc
+}
+A:visited {
+	COLOR: #0000cc
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: =
+0px
+}
+PRE {
+	OVERFLOW: auto; WIDTH: 800px; WORD-WRAP: break-word
+}
+</STYLE>
+
+<SCRIPT>=0A=
+function Print(){document.body.offsetHeight;window.print()}=0A=
+</SCRIPT>
+
+<META content=3D"MSHTML 6.00.6000.16981" name=3DGENERATOR></HEAD>
+<BODY onload=3DPrint()>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD width=3D143><IMG height=3D59 alt=3DGmail=20
+      src=3D"https://mail.google.com/mail/help/images/logo1.gif" =
+width=3D143> </TD>
+    <TD align=3Dright><FONT size=3D-1><B>Ravi Chandra =
+&lt;chvravi@gmail.com&gt;=20
+      </B></FONT></TD></TR></TBODY></TABLE>
+<HR>
+<FONT size=3D+2><B>rbs exam</B></FONT><BR>
+<HR>
+
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD><FONT size=3D-1><B>Ravi Chandra &lt;chvravi@gmail.com&gt; =
+</B></FONT></TD>
+    <TD align=3Dright><FONT size=3D-1><B>Sat, Dec 5, 2009 at 12:31 PM =
+</B></FONT>
+  <TR>
+    <TD colSpan=3D2><FONT size=3D-1>
+      <DIV>To: Ravi Chandra &lt;chvravi@gmail.com&gt; </DIV></FONT>
+  <TR>
+    <TD colSpan=3D2>
+      <TABLE cellSpacing=3D0 cellPadding=3D12 width=3D"100%" border=3D0>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3D-1>17: A Web form has a data structure. There =
+is a=20
+            method updateData() which updates this data structure. The =
+developer=20
+            wants to create a user control with some buttons. When one =
+of the=20
+            buttons is clicked, the data structure must be updated. =
+Which of the=20
+            following methods can the developer use to achieve this, =
+while=20
+            ensuring reusability of the =
+control?<BR><BR>&nbsp;&nbsp;&nbsp; A.=20
+            &nbsp;&nbsp;&nbsp; Get a reference to the parent page and =
+call its=20
+            method as ref.updateData().<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; Create a delegate that refers to =
+updateData()=20
+            method, and pass it to the user controls Delegate type =
+property.=20
+            When the user control's button is clicked, call the=20
+            delegate.<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp; Move =
+the data=20
+            structure and updateData() method to the user=20
+            control.<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp; Since =
+the=20
+            control is part of the page, call the method updateData() on =
+click=20
+            of button.<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; Move =
+the=20
+            updateData() method to the user =
+control.<BR>&nbsp;&nbsp;&nbsp;=20
+            <BR><BR><BR>&nbsp;18: Which of the following can be used to =
+refer to=20
+            the anonymous user account in Windows, where MachineName is =
+the name=20
+            of the Web server?<BR><BR>&nbsp;&nbsp;&nbsp; A. =
+&nbsp;&nbsp;&nbsp;=20
+            IUSER_MachineName.<BR>&nbsp;&nbsp;&nbsp; B. =
+&nbsp;&nbsp;&nbsp;=20
+            IUSERName_MachineName.<BR>&nbsp;&nbsp;&nbsp; C. =
+&nbsp;&nbsp;&nbsp;=20
+            IUSR_MachineName.<BR>&nbsp;&nbsp;&nbsp; D. =
+&nbsp;&nbsp;&nbsp;=20
+            IUSRName_MachineName.<BR>&nbsp;&nbsp;&nbsp; E. =
+&nbsp;&nbsp;&nbsp;=20
+            IUSERNme_MachineName.<BR><BR>19: The LoadControl method can =
+be used=20
+            to create user controls. This method belongs to which of the =
+
+            following classes?<BR><BR>&nbsp;&nbsp;&nbsp; A. =
+&nbsp;&nbsp;&nbsp;=20
+            System.Web.UI.UserControl<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; =
+System.Web.UI.Control<BR>&nbsp;&nbsp;&nbsp; C.=20
+            &nbsp;&nbsp;&nbsp; System.Web.UI<BR>&nbsp;&nbsp;&nbsp; D.=20
+            &nbsp;&nbsp;&nbsp; System.Web.UI.Page<BR>&nbsp;&nbsp;&nbsp; =
+E.=20
+            &nbsp;&nbsp;&nbsp; System.Web.UI.WebControl<BR>20: Which of =
+the=20
+            following identify errors in the enumeration =
+below?<BR><BR>public=20
+            enum DaysOfTheWeek: uint{<BR>&nbsp;&nbsp;&nbsp; Monday =3D=20
+            -1,<BR>&nbsp;&nbsp;&nbsp; Tuesday =3D =
+-2,<BR>&nbsp;&nbsp;&nbsp;=20
+            Wednesday =3D -3,<BR>&nbsp;&nbsp;&nbsp; Thursday =3D=20
+            -4,<BR>&nbsp;&nbsp;&nbsp; Friday =3D =
+-5,<BR>&nbsp;&nbsp;&nbsp;=20
+            StartOfTheWeek =3D -1<BR>}<BR><BR>&nbsp;&nbsp;&nbsp; A.=20
+            &nbsp;&nbsp;&nbsp; The specified type is not compatible with =
+the=20
+            member values.<BR>&nbsp;&nbsp;&nbsp; B. &nbsp;&nbsp;&nbsp;=20
+            Enumerations cannot be explicitly given a=20
+            type.<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp; =
+Enumerations=20
+            cannot be given an access modifier.<BR>&nbsp;&nbsp;&nbsp; D. =
+
+            &nbsp;&nbsp;&nbsp; Enumerated members must all have =
+different=20
+            values.<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; =
+Enumerations are=20
+            declared with the 'enumeration' keyword.<BR>21: Which of the =
+
+            following statements correctly describe a custom attribute =
+class in=20
+            .NET 2.0?<BR><BR>&nbsp;&nbsp;&nbsp; A. &nbsp;&nbsp;&nbsp; =
+The=20
+            parameters of a parameterized constructor in the class =
+become the=20
+            named parameters for the custom =
+attribute.<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; The public read-write properties of the =
+class=20
+            become the positional parameters for the custom=20
+            attribute.<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp; The =
+public=20
+            read-write fields of the class become the positional =
+parameters for=20
+            the custom attribute.<BR>&nbsp;&nbsp;&nbsp; D. =
+&nbsp;&nbsp;&nbsp;=20
+            The class can be used as a custom attribute only if it is =
+derived=20
+            directly or indirectly from the=20
+            System.Reflection.Attribute.<BR>&nbsp;&nbsp;&nbsp; E.=20
+            &nbsp;&nbsp;&nbsp; The class can be used as a custom =
+attribute only=20
+            if the AttributeUsage is applied to it.<BR><BR>22: Which of =
+the=20
+            following statements correctly describe a FOREIGN KEY =
+constraint in=20
+            SQL Server 2000?<BR><BR>&nbsp;&nbsp;&nbsp; A. =
+&nbsp;&nbsp;&nbsp; The=20
+            FOREIGN KEY constraint controls the data that is stored in =
+the=20
+            primary key table.<BR>&nbsp;&nbsp;&nbsp; B. =
+&nbsp;&nbsp;&nbsp;=20
+            Foreign key columns are often used in join criteria when the =
+data=20
+            from related tables is combined in queries by matching the =
+columns=20
+            in the FOREIGN KEY constraint of one table with the primary =
+or=20
+            unique key columns in the other table.<BR>&nbsp;&nbsp;&nbsp; =
+C.=20
+            &nbsp;&nbsp;&nbsp; A FOREIGN KEY constraint needs to be =
+linked only=20
+            to a PRIMARY KEY constraint in another =
+table.<BR>&nbsp;&nbsp;&nbsp;=20
+            D. &nbsp;&nbsp;&nbsp; A FOREIGN KEY constraint cannot =
+reference=20
+            columns in tables other than self-referencing=20
+            tables.<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; Changes =
+to=20
+            PRIMARY KEY constraints are checked with FOREIGN KEY =
+constraints in=20
+            related tables.<BR><BR>&nbsp;23: Which of the following =
+System.IO=20
+            classes can be used to directly read from text=20
+            files?<BR><BR>&nbsp;&nbsp;&nbsp; A. &nbsp;&nbsp;&nbsp;=20
+            MemoryStream.<BR>&nbsp;&nbsp;&nbsp; B. &nbsp;&nbsp;&nbsp;=20
+            File.<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp;=20
+            StringReader.<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp;=20
+            FileStream.<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp;=20
+            BinaryReader<BR>24: Which of the following mechanisms =
+provides=20
+            fundamental security within .NET?<BR><BR>&nbsp;&nbsp;&nbsp; =
+A.=20
+            &nbsp;&nbsp;&nbsp; Type-safe code.<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; Safe Security code.<BR>&nbsp;&nbsp;&nbsp; =
+C.=20
+            &nbsp;&nbsp;&nbsp; Process-safe code.<BR>&nbsp;&nbsp;&nbsp; =
+D.=20
+            &nbsp;&nbsp;&nbsp; Uncrackable Code.<BR>&nbsp;&nbsp;&nbsp; =
+E.=20
+            &nbsp;&nbsp;&nbsp; PGP.<BR>25: When using <A =
+href=3D"http://asp.net/"=20
+            target=3D_blank>ASP.NET</A> to develop Web applications, =
+which of the=20
+            following validation controls make use of the property=20
+            Type?<BR><BR>&nbsp;&nbsp;&nbsp; A. &nbsp;&nbsp;&nbsp;=20
+            RangeValidator<BR>&nbsp;&nbsp;&nbsp; B. &nbsp;&nbsp;&nbsp;=20
+            CustomValidator<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp;=20
+            RequiredFieldValidator<BR>&nbsp;&nbsp;&nbsp; D. =
+&nbsp;&nbsp;&nbsp;=20
+            CompareValidator<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; =
+
+            ValidationSummary<BR>&nbsp;26: Which of the following =
+methods does=20
+            the .NET framework provide for calling objects across =
+process=20
+            boundaries?<BR><BR>&nbsp;&nbsp;&nbsp; A. &nbsp;&nbsp;&nbsp; =
+CORBA=20
+            RPCs<BR>&nbsp;&nbsp;&nbsp; B. &nbsp;&nbsp;&nbsp;=20
+            Remoting<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp;=20
+            RMI<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp;=20
+            SOAP<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; =
+Late-binding<BR>27:=20
+            Which of the following are used to store data in the small =
+sessions=20
+            in <A href=3D"http://asp.net/" target=3D_blank>ASP.NET</A>=20
+            applications?<BR><BR>&nbsp;&nbsp;&nbsp; A. =
+&nbsp;&nbsp;&nbsp;=20
+            In-process session state<BR>&nbsp;&nbsp;&nbsp; B. =
+&nbsp;&nbsp;&nbsp;=20
+            Out-of-process session state in a SQL Server=20
+            database<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp; =
+Out-of-process=20
+            session state as Windows service<BR>&nbsp;&nbsp;&nbsp; D.=20
+            &nbsp;&nbsp;&nbsp; Custom session provider to store session=20
+            data<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; Disabled =
+session=20
+            state<BR>29: Which of the following statements accurately =
+describe a=20
+            result of executing the SQL Server 2000 query =
+below?<BR><BR>SELECT=20
+            Titles.title_id,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+            Titles.title,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+            Publishers.pub_name<BR>FROM Titles LEFT OUTER JOIN=20
+            =
+Publishers<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;=20
+            ON=20
+            =
+Titles.pub_id<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+            =3D Publishers.pub_id<BR><BR>&nbsp;&nbsp;&nbsp; A. =
+&nbsp;&nbsp;&nbsp;=20
+            The query returns all titles including those that do not =
+have any=20
+            publisher information.<BR>&nbsp;&nbsp;&nbsp; B. =
+&nbsp;&nbsp;&nbsp;=20
+            The query returns only those titles that do not have a =
+matching=20
+            publisher.<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp; The =
+query=20
+            returns only those titles with a matching=20
+            publisher.<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp; The =
+query=20
+            returns all publishers.<BR>&nbsp;&nbsp;&nbsp; E. =
+&nbsp;&nbsp;&nbsp;=20
+            The query returns only those publishers having a matching=20
+            title.<BR>30: Which of the following statements when written =
+in a=20
+            class inheriting from ServicedComponent will commit =
+distributed=20
+            transactions?<BR><BR>&nbsp;&nbsp;&nbsp; A. =
+&nbsp;&nbsp;&nbsp;=20
+            ContextUtil.Commit<BR>&nbsp;&nbsp;&nbsp; B. =
+&nbsp;&nbsp;&nbsp;=20
+            TransactionContext.Commit<BR>&nbsp;&nbsp;&nbsp; C.=20
+            &nbsp;&nbsp;&nbsp; =
+ObjectContext.Commit<BR>&nbsp;&nbsp;&nbsp; D.=20
+            &nbsp;&nbsp;&nbsp; =
+ContextUtil.SetComplete<BR>&nbsp;&nbsp;&nbsp; E.=20
+            &nbsp;&nbsp;&nbsp; ObjectContext.SetComplete<BR>Question 31: =
+In .NET=20
+            2.0 when an unhandled exception is thrown by a finalizer =
+thread,=20
+            which of the following actions will be performed by the .NET =
+
+            runtime?<BR><BR>&nbsp;&nbsp;&nbsp; A. &nbsp;&nbsp;&nbsp; The =
+runtime=20
+            terminates the finalizer thread.<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; If the thread is a foreground thread, the =
+
+            finalizer thread terminates the background=20
+            thread.<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp; The =
+runtime=20
+            prints the exception stack trace to the=20
+            console.<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp; If the =
+thread=20
+            is a background thread, the finalizer thread terminates the=20
+            foreground thread.<BR>&nbsp;&nbsp;&nbsp; E. =
+&nbsp;&nbsp;&nbsp; The=20
+            finalizer thread resumes running finalizers.<BR>Question 31: =
+In .NET=20
+            2.0 when an unhandled exception is thrown by a finalizer =
+thread,=20
+            which of the following actions will be performed by the .NET =
+
+            runtime?<BR><BR>&nbsp;&nbsp;&nbsp; A. &nbsp;&nbsp;&nbsp; The =
+runtime=20
+            terminates the finalizer thread.<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; If the thread is a foreground thread, the =
+
+            finalizer thread terminates the background=20
+            thread.<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp; The =
+runtime=20
+            prints the exception stack trace to the=20
+            console.<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp; If the =
+thread=20
+            is a background thread, the finalizer thread terminates the=20
+            foreground thread.<BR>&nbsp;&nbsp;&nbsp; E. =
+&nbsp;&nbsp;&nbsp; The=20
+            finalizer thread resumes running finalizers.<BR>Question 32: =
+A=20
+            company recently migrated to Microsoft Visual Studio .NET as =
+its=20
+            development platform. A developer is investigating the tools =
+
+            available for creating and managing <A =
+href=3D"http://asp.net/"=20
+            target=3D_blank>ASP.NET</A> Web applications and XML Web =
+services, and=20
+            found a reference to the Web Services Description Language =
+(WSDL)=20
+            utility (Wsdl.exe).<BR><BR>Which of the following statements =
+
+            correctly describe uses of the WSDL=20
+            utility?<BR><BR>&nbsp;&nbsp;&nbsp; A. &nbsp;&nbsp;&nbsp; The =
+WSDL=20
+            utility can be used to test an XML Web service by generating =
+SOAP=20
+            messages that carry out method calls.<BR>&nbsp;&nbsp;&nbsp; =
+B.=20
+            &nbsp;&nbsp;&nbsp; The WSDL utility can be used to create =
+the=20
+            discovery file for manual discovery when hosting a Web =
+service=20
+            locally.<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp; The =
+WSDL=20
+            utility can be used to create the virtual discovery file for =
+
+            automatic discovery when hosting a Web service=20
+            locally.<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp; The =
+WSDL=20
+            utility can be used to create a proxy class for use in a Web =
+service=20
+            consumer.<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; The =
+WSDL=20
+            utility can be used to generate the .wsdl file for a =
+specified Web=20
+            service.<BR><BR>Question 33: Which of the following features =
+
+            provided by CLR can be used to discover the metadata =
+contained in=20
+            the types defined in .NET assembly and invoke them at=20
+            runtime?<BR><BR>&nbsp;&nbsp;&nbsp; A. &nbsp;&nbsp;&nbsp;=20
+            Localization<BR>&nbsp;&nbsp;&nbsp; B. &nbsp;&nbsp;&nbsp;=20
+            Reflection<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp;=20
+            Manifest<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp;=20
+            Interoperability<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; =
+
+            Namespace<BR>Question 34: Which of the following accurately =
+describe=20
+            the ViewState feature in <A href=3D"http://asp.net/"=20
+            target=3D_blank>ASP.NET</A>?<BR><BR>&nbsp;&nbsp;&nbsp; A.=20
+            &nbsp;&nbsp;&nbsp; The mode attribute of the sessionState =
+section in=20
+            the Web.config is set to "InProc"<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; The mode attribute of the sessionState =
+section in=20
+            the Web.config is set to "OutProc"<BR>&nbsp;&nbsp;&nbsp; C.=20
+            &nbsp;&nbsp;&nbsp; The mechanism used by <A =
+href=3D"http://asp.net/"=20
+            target=3D_blank>ASP.NET</A> to keep track of server control =
+state=20
+            values that do not otherwise post back as part of the HTTP=20
+            form<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp; A hidden =
+form field=20
+            managed by the <A href=3D"http://asp.net/" =
+target=3D_blank>ASP.NET</A>=20
+            page framework<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; =
+The=20
+            hidden form field is part of the page sent to the=20
+            client.<BR>Question 35: On which of the following protocol =
+standards=20
+            is the <A href=3D"http://asp.net/" =
+target=3D_blank>ASP.NET</A> Web=20
+            services architecture based?<BR><BR>&nbsp;&nbsp;&nbsp; A.=20
+            &nbsp;&nbsp;&nbsp; SOAP<BR>&nbsp;&nbsp;&nbsp; B. =
+&nbsp;&nbsp;&nbsp;=20
+            TCP<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp;=20
+            XML<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp;=20
+            HTTP<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; SMTP<BR>36: =
+Which=20
+            of the following describe appropriate situations in which to =
+use=20
+            thread pools for threads in .NET?<BR><BR>&nbsp;&nbsp;&nbsp; =
+A.=20
+            &nbsp;&nbsp;&nbsp; When the thread management should be done =
+
+            automatically<BR>&nbsp;&nbsp;&nbsp; B. &nbsp;&nbsp;&nbsp; =
+When a=20
+            particular priority is to be given to a =
+thread<BR>&nbsp;&nbsp;&nbsp;=20
+            C. &nbsp;&nbsp;&nbsp; When a bigger task is required to =
+execute in=20
+            the background<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp; =
+When a=20
+            thread needs to be placed into a single-threaded apartment=20
+            (STA)<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; When the =
+threads=20
+            are not to be blocked for long periods of time<BR>Question =
+37: There=20
+            are 23 rows in the Authors table and 9 rows in the =
+Publishers table=20
+            of the PUBS SQL Server 2000 database. Which of the following =
+
+            statements accurately describe the number of rows returned =
+by=20
+            executing the query below?<BR><BR>SELECT *<BR>FROM Authors =
+CROSS=20
+            JOIN Publishers<BR><BR>&nbsp;&nbsp;&nbsp; A. =
+&nbsp;&nbsp;&nbsp; 23=20
+            rows will be returned<BR>&nbsp;&nbsp;&nbsp; B. =
+&nbsp;&nbsp;&nbsp;=20
+            207 rows will be returned<BR>&nbsp;&nbsp;&nbsp; C.=20
+            &nbsp;&nbsp;&nbsp; 9 rows will be =
+returned<BR>&nbsp;&nbsp;&nbsp; D.=20
+            &nbsp;&nbsp;&nbsp; 32 rows will be =
+returned<BR>&nbsp;&nbsp;&nbsp; E.=20
+            &nbsp;&nbsp;&nbsp; 14 rows will be returned<BR>Question 38: =
+From=20
+            which of the following classes must a developer inherit to =
+take=20
+            advantage of the COM+ transactions in the=20
+            applications?<BR><BR>&nbsp;&nbsp;&nbsp; A. =
+&nbsp;&nbsp;&nbsp;=20
+            =
+System.ServicedComponent.<WBR>ContextUtil<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; =
+System.EnterpriseServices<BR>&nbsp;&nbsp;&nbsp;=20
+            C. &nbsp;&nbsp;&nbsp;=20
+            =
+System.EnterpriseServices.<WBR>ServicedComponent<BR>&nbsp;&nbsp;&nbsp;=20
+            D. &nbsp;&nbsp;&nbsp; =
+System.ServicedComponent<BR>&nbsp;&nbsp;&nbsp;=20
+            E. &nbsp;&nbsp;&nbsp; System.ContextUtil<BR>Question 39: =
+Which of=20
+            the following settings can be used for session state =
+management in=20
+            <A href=3D"http://asp.net/"=20
+            target=3D_blank>ASP.NET</A>?<BR><BR>&nbsp;&nbsp;&nbsp; A.=20
+            &nbsp;&nbsp;&nbsp; StateServer<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; InProc<BR>&nbsp;&nbsp;&nbsp; C.=20
+            &nbsp;&nbsp;&nbsp; Sqlserver<BR>&nbsp;&nbsp;&nbsp; D.=20
+            &nbsp;&nbsp;&nbsp; Outproc<BR>&nbsp;&nbsp;&nbsp; E.=20
+            &nbsp;&nbsp;&nbsp; SQLProc<BR><BR>Question 40: Which of the=20
+            following statements about the System.IO classes are=20
+            false?<BR><BR>&nbsp;&nbsp;&nbsp; A. &nbsp;&nbsp;&nbsp; The =
+FileInfo=20
+            class provides static methods for manipulating=20
+            files.<BR>&nbsp;&nbsp;&nbsp; B. &nbsp;&nbsp;&nbsp; The File =
+class=20
+            provides static methods for manipulating=20
+            files.<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp; The Path =
+class=20
+            provides instance methods for manipulating strings =
+containing path=20
+            information.<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp; The =
+Folder=20
+            class provides static methods for manipulating=20
+            folders.<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; The=20
+            DirectoryInfo class provides instance methods for =
+manipulating=20
+            directories.<BR>Question 41: Which of the following =
+namespaces=20
+            provide all the methods and objects that can be used to =
+encode and=20
+            decode data in <A href=3D"http://asp.net/"=20
+            target=3D_blank>ASP.NET</A>?<BR><BR>&nbsp;&nbsp;&nbsp; A.=20
+            &nbsp;&nbsp;&nbsp; =
+System.Interop.Cryptography<BR>&nbsp;&nbsp;&nbsp;=20
+            B. &nbsp;&nbsp;&nbsp;=20
+            System.Security.Cryptography<BR>&nbsp;&nbsp;&nbsp; C.=20
+            &nbsp;&nbsp;&nbsp; =
+System.Web.Cryptography<BR>&nbsp;&nbsp;&nbsp; D.=20
+            &nbsp;&nbsp;&nbsp; =
+System.Data.Cryptography<BR>&nbsp;&nbsp;&nbsp; E.=20
+            &nbsp;&nbsp;&nbsp; System.Cryptography<BR>Question 42: Which =
+of the=20
+            following steps must a developer use to convert an existing =
+page to=20
+            a user control?<BR><BR>&nbsp;&nbsp;&nbsp; A. =
+&nbsp;&nbsp;&nbsp; Add=20
+            the &lt;HTML&gt; and &lt;BODY&gt; tag<BR>&nbsp;&nbsp;&nbsp; =
+B.=20
+            &nbsp;&nbsp;&nbsp; Remove the &lt;FORM&gt; =
+tag<BR>&nbsp;&nbsp;&nbsp;=20
+            C. &nbsp;&nbsp;&nbsp; Replace the @page directive with the =
+@control=20
+            directive<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp; Remove =
+all the=20
+            @Import directives<BR>&nbsp;&nbsp;&nbsp; E. =
+&nbsp;&nbsp;&nbsp;=20
+            Remove events<BR>Question 43: A .NET program uses two =
+reference=20
+            variables A and B. Both A and B are pointing to the same =
+memory=20
+            location and the program refers to a File and a Network =
+connection.=20
+            Which of the following statements correctly describe the =
+garbage=20
+            collection?<BR><BR>&nbsp;&nbsp;&nbsp; A. &nbsp;&nbsp;&nbsp; =
+Garbage=20
+            collector frees the memory, file, and network connection=20
+            automatically when the program =
+terminates.<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; Garbage collector frees the memory when =
+neither A=20
+            nor B refer to the memory.<BR>&nbsp;&nbsp;&nbsp; C.=20
+            &nbsp;&nbsp;&nbsp; Garbage collector frees the memory when =
+any one=20
+            of the variables does not refer to the =
+memory.<BR>&nbsp;&nbsp;&nbsp;=20
+            D. &nbsp;&nbsp;&nbsp; Garbage collector frees the file and =
+network=20
+            connection resource automatically when they are not in use =
+for a=20
+            longer time.<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; =
+Garbage=20
+            collector does not free the memory immediately once A and B =
+lose the=20
+            reference; it follows its own algorithm when to collect=20
+            it.<BR>Question 44: In .NET, which of the following =
+scenarios will=20
+            throw an exception when the System.IO.Directory.Move() =
+method is=20
+            called to move a directory to a new=20
+            location?<BR><BR>&nbsp;&nbsp;&nbsp; A. &nbsp;&nbsp;&nbsp; =
+The=20
+            current user does not have read permission on the source=20
+            directory.<BR>&nbsp;&nbsp;&nbsp; B. &nbsp;&nbsp;&nbsp; The=20
+            destination directory already exists.<BR>&nbsp;&nbsp;&nbsp; =
+C.=20
+            &nbsp;&nbsp;&nbsp; The source directory is being used by =
+another=20
+            process.<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp; The =
+destination=20
+            directory does not exist.<BR>&nbsp;&nbsp;&nbsp; E.=20
+            &nbsp;&nbsp;&nbsp; The destination directory is not a =
+subdirectory=20
+            of the source directory.<BR>Question 45: Which of the =
+following are=20
+            Precedence constraints in SQL Server =
+2000?<BR><BR>&nbsp;&nbsp;&nbsp;=20
+            A. &nbsp;&nbsp;&nbsp; CHECK =
+constraints<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; DEFAULT constraints<BR>&nbsp;&nbsp;&nbsp; =
+C.=20
+            &nbsp;&nbsp;&nbsp; On Success =
+constraints<BR>&nbsp;&nbsp;&nbsp; D.=20
+            &nbsp;&nbsp;&nbsp; Unconditional =
+constraints<BR>&nbsp;&nbsp;&nbsp;=20
+            E. &nbsp;&nbsp;&nbsp; On Failure constraints<BR>Question 46: =
+Which=20
+            of the following data type conversions can be made=20
+            implicitly?<BR><BR>&nbsp;&nbsp;&nbsp; A. &nbsp;&nbsp;&nbsp; =
+'int' to=20
+            'bool'.<BR>&nbsp;&nbsp;&nbsp; B. &nbsp;&nbsp;&nbsp; 'bool' =
+to=20
+            'int'.<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp; 'int' to=20
+            'short'.<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp; 'int' =
+to=20
+            'float'.<BR>&nbsp;&nbsp;&nbsp; E. &nbsp;&nbsp;&nbsp; 'short' =
+to=20
+            'int'.<BR>Question 47: Which of the following properties are =
+
+            associated with the RangeValidator control in <A=20
+            href=3D"http://asp.net/"=20
+            target=3D_blank>ASP.NET</A>?<BR><BR>&nbsp;&nbsp;&nbsp; A.=20
+            &nbsp;&nbsp;&nbsp; HighValue<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; MaximumValue<BR>&nbsp;&nbsp;&nbsp; C.=20
+            &nbsp;&nbsp;&nbsp; MinimumValue<BR>&nbsp;&nbsp;&nbsp; D.=20
+            &nbsp;&nbsp;&nbsp; Ceiling<BR>&nbsp;&nbsp;&nbsp; E.=20
+            &nbsp;&nbsp;&nbsp; LowValue<BR>Question 48: Which of the =
+following=20
+            binding flags must be used to query a nonstatic private =
+method of a=20
+            class through reflection in .NET?<BR><BR>&nbsp;&nbsp;&nbsp; =
+A.=20
+            &nbsp;&nbsp;&nbsp; =
+BindingFlags.NonPublic<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; =
+BindingFlags.DeclaredOnly<BR>&nbsp;&nbsp;&nbsp;=20
+            C. &nbsp;&nbsp;&nbsp;=20
+            BindingFlags.FlattenHierarchy<BR>&nbsp;&nbsp;&nbsp; D.=20
+            &nbsp;&nbsp;&nbsp; BindingFlags.Static<BR>&nbsp;&nbsp;&nbsp; =
+E.=20
+            &nbsp;&nbsp;&nbsp; BindingFlags.Instance<BR>Question 49: =
+Which of=20
+            the following namespaces provide access to Threading=20
+            functionality?<BR><BR>&nbsp;&nbsp;&nbsp; A. =
+&nbsp;&nbsp;&nbsp;=20
+            System.Diagnostics.Threading.<BR>&nbsp;&nbsp;&nbsp; B.=20
+            &nbsp;&nbsp;&nbsp; =
+AppDomain.Threading.<BR>&nbsp;&nbsp;&nbsp; C.=20
+            &nbsp;&nbsp;&nbsp; System.Diagnostics.<BR>&nbsp;&nbsp;&nbsp; =
+D.=20
+            &nbsp;&nbsp;&nbsp; System.Threading.<BR>&nbsp;&nbsp;&nbsp; =
+E.=20
+            &nbsp;&nbsp;&nbsp; System.Runtime.<BR>Question 50: Which of =
+the=20
+            following members of the PerformanceCounterType enumeration =
+measure=20
+            the average time required to complete an operation in an <A=20
+            href=3D"http://asp.net/" target=3D_blank>ASP.NET</A>=20
+            application?<BR><BR>&nbsp;&nbsp;&nbsp; A. &nbsp;&nbsp;&nbsp; =
+
+            AverageCount64<BR>&nbsp;&nbsp;&nbsp; B. &nbsp;&nbsp;&nbsp;=20
+            AverageTimer32<BR>&nbsp;&nbsp;&nbsp; C. &nbsp;&nbsp;&nbsp;=20
+            CountPerTimeInterval32<BR>&nbsp;&nbsp;&nbsp; D. =
+&nbsp;&nbsp;&nbsp;=20
+            RateOfCountsPerSecond32<BR>&nbsp;&nbsp;&nbsp; E. =
+&nbsp;&nbsp;&nbsp;=20
+            CounterMultiTimer<BR>Question 51: Which of the following =
+namespaces=20
+            provide security?<BR><BR>&nbsp;&nbsp;&nbsp; A. =
+&nbsp;&nbsp;&nbsp;=20
+            System.<BR>&nbsp;&nbsp;&nbsp; B. &nbsp;&nbsp;&nbsp;=20
+            System.Runtime.Security.<BR>&nbsp;&nbsp;&nbsp; C. =
+&nbsp;&nbsp;&nbsp;=20
+            System.Security.<BR>&nbsp;&nbsp;&nbsp; D. &nbsp;&nbsp;&nbsp; =
+
+            Microsoft.Security.<BR>&nbsp;&nbsp;&nbsp; E. =
+&nbsp;&nbsp;&nbsp;=20
+            =
+System.Net.Security<BR><BR></FONT></TR></TBODY></TABLE></TR></TBODY></TAB=
+LE>
+<HR>
+</BODY></HTML>
+
+------=_NextPart_000_0000_01CAA4F0.33860D50
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://mail.google.com/mail/help/images/logo1.gif
+
+R0lGODlhjwA7APcAAP7+/gBste/x8eDg4MMUAkSXzPj5+bEQAPP09CetUKOjo/39/QFzvNzb25OT
+k+3v7i2MyPr7/PC4Devr6wFlrMglFejo6M03KOLj4xiCxdpxZs3MzIuymOvj6Qh6wc5IO36gtezl
+4d5+dP3DENTT0yt4q75vZ/3TT9NWSv7ijdXQzXix1fn08v3LLObm5ddjV12l0uCGffPq5/HQzUqz
+apGls3HKjP7ZZrm5ulzBe9KyT96sE7DR5ampqb6+wJjE4NPg6vXry87S2RZ3tuWhm7GysdmoqjmG
+t/X5/B+fRoOCgtiSkuzo5oe621iJqeHHc/L2+cXFxIqJibhBNgBfpue4tv/gebGqk+Ts9PX19dzc
+3OKZkUZ/pPf396PYs8nJydrU0dXV1fz59//8+fn5+bbN3ProsZmZmZCQkDBzn87IxPnz5KKhoevE
+Tc7OzmWYuLq5uePY1+fn562trcXb6eTk5MXKz4WZpnKRpc+oL9TLxcjN08zMzPr6+vz8/Ji1xwBb
+nb29vczFw+/Wh/b29vDw8Pbw8dDQ0MPDw+3t7bCwsLSzs7qmZ+np6fLy8vv7+869iqKttNfW1tm+
+wtTFmsbFxcvDvYeGhum6LBNsqKWlpZiXl+rq6tjY2JuamtHR0bOyss3NzdLU2tTr2pubm+bm5qen
+p+Li4pSUlJmYmJ+fn9TU1IGAgLe2ts21cJ6dneXl5cDAwN/f39LS0p2cnPj4+OPj4+zs7MHBwRNo
+n5aVlfPz8/r9+9rZ2ZaWlv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAjwA7AAAI/wB/CRxI
+sKBBggAMIBDAUAAUAwsOSpxIsaLFixgzasyIhcePFTAKiBQJY0WTH3SwQNnIsqXLlzANGuCxAoIH
+BgECMNi504OHDBAgFICBckzMo0iTukTCo0AGnEO4OLlTo6oCEE6ODPmZoWuGAjwQKB1LtuwvIDCe
+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
+4AYn6ZRWeZVYmZWFERAAOw==
+
+------=_NextPart_000_0000_01CAA4F0.33860D50--

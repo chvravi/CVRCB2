@@ -1,0 +1,21 @@
+<html>
+<head>
+    <script language="JavaScript">
+        var dt = new Date();
+        if (dt.getHours() < 12) {
+            document.write("Good Morning The Time Is : " + dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds());
+        }
+        else if (dt.getHours() > 11 && dt.getHours() < 16) {
+            document.write("Good AfterNoon The Time Is : " + dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds());
+        }
+        else if (dt.getHours() > 15 && dt.getHours() < 20) {
+            document.write("Good Evening The Time Is : " + dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds());
+        }
+        else {
+            document.write("Good Night The Time Is : " + dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds());
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>

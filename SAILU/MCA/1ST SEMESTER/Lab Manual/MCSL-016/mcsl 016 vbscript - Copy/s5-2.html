@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>RandomNumber Generator</title>
+<script language="vbscript">
+function randGen()
+ Dim x
+ randomize
+ x=Int(rnd*100)
+ demo.innerHTML = x
+end function
+</script>
+</head>
+
+<body>
+<input type="submit" onClick="randGen()"  value="Click to Get a Number"/>
+<p id="demo"></p>
+</body>
+</html>

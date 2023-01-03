@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Greating Message</title>
+<script language="vbscript">
+ dim h, tm
+ h = Hour(time)
+ if h>=0 and h<12 then
+  tm = 1
+ elseif h>=12 and h<15 then
+  tm = 2
+ elseif h>=15 and h<=18 then
+  tm = 3
+ elseif h>=19 and h<0 then
+  tm = 4
+ end if
+ select case tm
+ case 1
+       MsgBox "Good Morning"
+ case 2
+       MsgBox "Good Afternoon"
+ case 3
+       MsgBox "Good Evening"
+ case 4
+       MsgBox "Good Night"
+ end select
+</script>
+</head>
+
+<body>
+</body>
+</html>

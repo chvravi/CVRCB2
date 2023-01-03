@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<script language="JavaScript">
+    function check() {
+        if (form1.t.value == "") {
+            alert("Enter The Text");
+            form1.t.focus();
+        }
+        else {
+            alert("Thank You");
+        }
+    }
+</script>
+<body>
+    <form name="form1" method="post" action="">
+    Enter a Text<input name="t" type="text" id="t">
+    <input type="submit" name="Submit" value="Submit" onclick="check()">
+    </form>
+</body>
+</html>

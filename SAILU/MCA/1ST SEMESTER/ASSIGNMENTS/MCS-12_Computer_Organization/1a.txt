@@ -1,0 +1,46 @@
+There are two types of complements for a number of base (also called
+radix) r. These are called r’s complement and (r- 1)’s complement. For example, for
+decimal numbers the base is 10, therefore, complements will be 10’s complement and
+(10-1) = 9’s complement. For binary numbers we talk about 2’s and 1’s complements.
+Minimum Number is -128
+and Maximum Number is 127.
+
+Example:  
+ 25  is written in 8 bit register as binary: 00011001 
+ 1’s Complements:
+ Using 1’s Complements which is HighestNumber in 8 bit register Minus Actual Number.
+  
+       1111 1111 
+ Minus 0001 1001
+ 
+ This can be achived even by fliping 1 to 0 and 0 to 1.
+ 
+ -25 is written in 8 bit register as binary(1’s Complements) : 1110 0110(1’s Complements) 
+ 
+ 2’s complement: Adding 1 in 1’s complement will generate the 2’s complement
+ -25 is written in 8 bit register as binary: 11100110+1=11100111 (2’s Complements).
+
+(i) 
+
+98 is Written in Binary format as  :  0 1 1 0  0 0 1 0 
+ 
+-98 is Written in Binary format as :  1 0 0 1  1 1 0 1 
+(Using 1's Complements)
+
+-98 is Written in Binary format as :  1 0 0 1  1 1 1 0 
+(Using 2's Complements)
+
+198 is Written in Binary format as  :  1 1 0 0  0 1 1 0 
+
+198 has exceed Maximum value of 127 and It is considered as negative number because of sign bit value is 1.
+So this is Overflow representation of Number.
+
+(ii)
+124 is Written in Binary format as  :  0 1 1 1 1 1 0 0 
+142 is Written in Binary format as  :  1 0 0 0 1 1 1 0 
+---------------------------- 
+                                     1 0 0 0 0 1 0 1 0 overflow 
+									 i
+142 has exceed Maximum value of 127 and It is considered as negative number because of sign bit value is 1.
+So this is Overflow representation of Number.
+If carry into sign bit is not equal to carry out sign bit then overflow must occurs. 

@@ -1,0 +1,4 @@
+D:\SAILU\Arrays\Arrays\bin\Debug\Arrays.exe
+D:\SAILU\Arrays\Arrays\bin\Debug\Arrays.pdb
+D:\SAILU\Arrays\Arrays\obj\x86\Debug\Arrays.exe
+D:\SAILU\Arrays\Arrays\obj\x86\Debug\Arrays.pdb

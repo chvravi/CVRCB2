@@ -1,0 +1,14 @@
+A Relation is an ordered pair, usually denoted by (x,y), is a pair of elements x and y
+of some sets. This is ordered in the sense that (x,y) 1 (y,x) whenever x 1 y,that is ,
+the order of placing of the element in the pair matters.
+
+Equivalence Relations: A relation R on a set A is called an equivalence relation if
+and only if
+(i) R is reflexive, i.e., for all a " R, (a, a) " R,
+(ii) R is symmetric, i.e., (a, b) " R & (b, a) " R, for all a, b " A, and
+(iii) R is transitive, i.e., (a, b) " R and (b, c) " R & (a, c) " R, for all a, b, c " A.
+One of the most trivial examples of an equivalence relation is that of ‘equality’.
+For any elements a,b,c in a set A,
+(i) a = a, i.e., reflexivity
+(ii) a = b& b = a, i.e., symmetricity
+(iii) a = b and b = c & a = c , i.e., transitivity.

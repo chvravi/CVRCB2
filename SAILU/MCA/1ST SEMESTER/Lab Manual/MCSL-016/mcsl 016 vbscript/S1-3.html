@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+HelloWorld
+<script language="VBScript">
+ Sub Window_onLoad
+   window.setInterval GetRef("checkThis"),1000
+ End Sub
+ 
+ Sub checkThis
+  dim r
+  randomize
+  r=Int(rnd*1000000)
+  document.fgcolor=Cstr(r)
+ End Sub
+</script>
+
+</body>
+</html>

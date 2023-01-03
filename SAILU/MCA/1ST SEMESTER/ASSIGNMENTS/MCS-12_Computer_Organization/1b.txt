@@ -1,0 +1,44 @@
+b. 
+(i) Divide 2050  with 16 and get all the remainders.
+Take Remainders In the order of Last Remainder to First remainder.
+ 16|2050
+    ------
+ 16|128 - 2
+    --------
+ 16|8 -  0 
+    ------
+    0  - 8
+ 
+(2050)10 = (802)H
+
+(ii)
+
+Convert the given Hexadecimal to Binary format Number.
+(19BACDFE)H = (0001 1001 1011 1010 1100 1101 1111 1110)2
+
+Take this Binary and split by 3 digits from right to left.
+(0001 1001 1011 1010 1100 1101 1111 1110)2 = (00 011 001 101 110 101 100 110 111 111 110)2
+
+Convert this Binary Number to Octal Number.
+
+(00 011 001 101 110 101 100 110 111 111 110)2 = (3156546776)O
+
+So, 
+(19BACDFE)H = (3156546776)O
+
+(iii) ASCII string “AssignMenT” into UTF 16 : 0041 0073 0073 0069 0067 006E 004D 0065 006E 0054
+
+(iv)
+Convert the given Octal Number to Binary format Number.
+(547561)O = (101100111101110)2
+
+
+Take this Binary and split by 4 digits from right to left.
+
+(101100111101110)2 = (101 1001 1110 1110)2
+
+Convert this Binary Number to Hexadecimal Number.
+
+(101 1001 1110 1110)2 = (59EE)H 
+So,
+(547561)O= (59EE)H 

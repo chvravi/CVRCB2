@@ -1,0 +1,160 @@
+jQuery('#myForm').live('submit',function(event) {
+var name = $("#name").val();
+var email = $("#email").val();
+var city = $("#city").val();
+var topic_title = $("#topic_title").val();
+var comment = $("#comment").val();
+var pass = $("#pass").val();
+var replied_user_id = $("#replied_user_id").val();
+
+var baseurl = $("#baseurl").val()+'/ww_do.php';
+
+var security_code = $("#security_code").val();
+
+
+
+if(name=='' || email=='' || city=='' || comment=='' || security_code=='' || pass=='')
+{
+	$('#notificationerror').show();
+	$('#notificationerror').html("Name / Email / Password / City / Comment /Verification Code cannot be empty!");
+	//$('#notificationerror').fadeIn(400).fadeTo(5000,1).fadeOut(1000);
+}
+else
+{
+//Check email
+var filter=/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i
+if (!filter.test(email)){
+	$('#notificationerror').show();
+	$('#notificationerror').html("Email not correct!!");
+	return false;
+}
+
+//alert(topic_title.length);
+//Check title or question length
+if(topic_title!=''){
+if (topic_title.length > 55) // if too long...trim it!
+	{
+	$('#notificationerror').show();
+	$('#notificationerror').html("Title/Question can be maximum of 55 Characters!");
+	return false;
+	}
+if (topic_title.length < 7) // if too long...trim it!
+	{
+	$('#notificationerror').show();
+	$('#notificationerror').html("Title/Question can be minimum of 7 Characters!");
+	return false;
+	}
+	
+}
+if (pass.length < 3) // if too long...trim it!
+	{
+	$('#notificationerror').show();
+	$('#notificationerror').html("Password can be minimum of 3 Characters!");
+	return false;
+	}
+if (pass.length > 25) // if too long...trim it!
+	{
+	$('#notificationerror').show();
+	$('#notificationerror').html("Password can be maximum of 25 Characters!");
+	return false;
+	}
+$.ajax({
+		type: "GET",
+		url: baseurl,
+		//url: "http://localhost/bg/do.php",
+		contentType: 'application/json; charset=utf-8',
+		data: $('#myForm').serialize(),
+		dataType: 'jsonp',
+		success:function(data){
+					 // do stuff with json (in this case an array)
+					 //alert(baseurl);
+					 if(data.sucmessage=='yes'){
+						 //$('#commentform').hide();
+						 //$('#notification1').show();
+						 //$('#notification1').html(data.message);
+
+						 $('#commentform').fadeOut('slow', function (){
+						// now that it is gone, swap content
+						$('#notification1').html(data.message);
+						// now fade it back in
+						$('#notification1').fadeIn('slow');
+						});
+						 //alert("Success");
+					 }else{
+						 $('#notificationerror').fadeOut('fast', function (){
+						// now that it is gone, swap content
+						$('#notificationerror').html(data.message);
+						// now fade it back in
+							$('#notificationerror').fadeIn('slow');
+							$('#iframe1').attr('src', $('#iframe1').attr('src'));
+						});
+						
+					 }
+
+				 },
+		error:function(){
+					 alert('Unknown error');
+				 },
+		});
+
+}
+return false;
+});
+
+
+/* Second function for the reply */
+
+$(document).ready(function(){
+
+    $(".reply_link").click(function(){
+       
+			var vars = [], hash;
+			var q = $(this).attr('href').split('?')[1]
+			if(q != undefined){
+				q = q.split('&');
+				for(var i = 0; i < q.length; i++){
+					hash = q[i].split('=');
+					vars.push(hash[1]);
+					vars[hash[0]] = hash[1];
+				}
+			}
+
+
+
+        //var replynum=$(this).attr('href').split('=')[1]
+        $('#hidden_reply_field').val(vars['replynum']);
+		$('#reply_name').val(vars['name']);
+		$('#replied_user_id').val(vars['replied_user_id']);
+		
+		$('#reply_to_div_value').html(vars['name']);
+		$('#reply_to_div_value_city').html(vars['city']);
+		$('#reply_to_div').fadeIn('fast');
+		$("#start_a_new_topic").fadeOut('slow');
+		$('#start_a_new_topic').val('');
+
+		element_to_scroll_to = document.getElementById('registerlinkbox');
+		element_to_scroll_to.scrollIntoView();
+        
+		return false;
+		 //alert("Success");
+    });
+
+	/* Remove reply link */
+	    $(".reply_link_remove").click(function(){
+       
+		//var replynum=$(this).attr('href').split('=')[1]
+        $('#hidden_reply_field').val('');
+		$('#reply_name').val('');
+		$('#replied_user_id').val('');
+		$('#reply_to_div').fadeOut('fast');
+		$('#reply_to_div_value').html('');
+		$('#reply_to_div_value_city').html('');
+		
+		$("#start_a_new_topic").fadeIn('fast');
+		$('#start_a_new_topic').val('');
+		return false;
+		 //alert("Success");
+    });
+
+});
+

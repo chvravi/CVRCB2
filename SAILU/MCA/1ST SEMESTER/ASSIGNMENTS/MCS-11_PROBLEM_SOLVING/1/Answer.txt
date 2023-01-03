@@ -1,0 +1,6 @@
+C language is used for creating computer applications like
+1. Embedded softwares.
+2. Firmware for industrial and communications products which use micro-controllers.
+3. For Creating Compiles of different Languages which can take input from other language and convert it into lower level machine dependent language.
+4. C is used to implement different Operating System Operations.
+5. UNIX kernel is completely developed in C Language.

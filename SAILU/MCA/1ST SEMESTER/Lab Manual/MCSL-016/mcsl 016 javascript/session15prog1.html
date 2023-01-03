@@ -1,0 +1,35 @@
+<html>
+<head>
+</head>
+<script language="JavaScript">
+    function check() {
+        if (form1.t.value == "") {
+            alert("Enter The Username");
+            form1.t.focus();
+        }
+        else if (form1.t2.value == "") {
+            alert("Enter The Password");
+            form1.t2.focus();
+        }
+        else {
+            if ((form1.t.value != "") || (form1.t2.value != "")) {
+                alert("Invalid Username or Password");
+            }
+        }
+    }
+</script>
+<body>
+    <form name="form1" method="post" action="">
+    <p>
+        User Name
+        <input name="t" type="text" id="t">
+    </p>
+    <p>
+        Password
+        <input name="t2" type="password" id="t2">
+    </p>
+    <p>
+        <input type="button" name="Button" value="Button" onclick="check()"></p>
+    </form>
+</body>
+</html>

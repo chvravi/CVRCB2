@@ -1,0 +1,41 @@
+<html>
+<head>
+</head>
+<html>
+<head>
+</head>
+<script language="JavaScript">
+var Message="Yet another simple scroll!";
+var place=1;
+function scrollIn() {
+window.status=Message.substring(0, place);
+if (place >= Message.length) {
+place=1;
+window.setTimeout("scrollOut()",300); 
+} else {
+place++;
+window.setTimeout("scrollIn()",50); 
+} 
+}
+function scrollOut() {
+window.status=Message.substring(place, Message.length);
+if (place >= Message.length) {
+place=1;
+window.setTimeout("scrollIn()", 100);
+} else {
+place++;
+window.setTimeout("scrollOut()", 50);
+}
+}
+</script>
+<body onLoad="scrollIn()">
+
+<p><center>
+<font face="arial, helvetica" size="-2">Free JavaScripts provided<br>
+by <a href="http://www.java-samples.com">The Java samples home</a></font>
+</center><p>
+</body>
+</html>
+<body>
+</body>
+</html>

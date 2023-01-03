@@ -1,0 +1,25 @@
+﻿<html>
+<head>
+    <title>Matrix Comparison</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        function MatrixComparison(a, b) {
+            var rows = 0;
+            var columns = 0;
+            if (a.rows != b.rows)
+                return false;
+            if (a.columns != b.columns)
+                return false;
+
+            for (var i = 0; i < a.rows; ++i) {
+                for (var j = 0; j < a.columns; j++) {
+                    if (a[i,j] !== b[i,j]) return false;
+                }
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>

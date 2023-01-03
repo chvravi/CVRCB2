@@ -1,0 +1,980 @@
+1 
+ 
+ 
+MASTER OF COMPUTER 
+APPLICATIONS 
+(MCA) 
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+ASSIGNMENTS 
+ 
+(July - 2016 & January - 2017) 
+ 
+ 
+  
+ 
+ 
+ 
+MCS-011, MCS-012, MCS-013, MCS-014, MCS-015,  
+ 
+MCSL-016, MCSL-017 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SCHOOL OF COMPUTER AND INFORMATION SCIENCES 
+INDIRA GANDHI NATIONAL OPEN UNIVERSITY 
+MAIDAN GARHI, NEW DELHI – 110 068 
+ 
+ 
+ 
+MCA/ASSIGN/SEMESTER-I 
+2 
+ 
+CONTENTS 
+ 
+ 
+Course 
+Code 
+Assignment No. 
+ 
+Submission-Schedule Page 
+No. 
+For July- 
+December 
+Session 
+For January-
+June Session 
+MCS-011 MCA(1)/011/Assignment/16-17 15
+th
+  October, 2016 15
+th
+  April, 2017 3 
+MCS-012 MCA(1)/012/Assignment/16-17 15
+th
+  October, 2016 15
+th
+  April, 2017 5 
+MCS-013 MCA(1)/013/Assignment/16-17 15
+th
+  October, 2016 15
+th
+ April, 2017 10 
+MCS-014 MCA(1)/014/Assignment/16-17 15
+th
+  October, 2016 15
+th
+  April, 2017 13 
+MCS-015 MCA(1)/015/Assignment/16-17 15
+th
+  October, 2016 15
+th
+ April, 2017 14 
+MCSL-016 MCA(1)/L-016/Assignment/16-17 31
+st
+  October, 2016 30
+th
+  April, 2017 18 
+MCSL-017 MCA(1)/L-017/Assignment/16-17 31
+st
+  October, 2016 30
+th
+  April, 2017 20 
+ 
+ 
+Important Notes 
+ 
+1. Submit your assignments to the Coordinator of your Study Centre on or before the 
+due date. 
+2. Assignment submission before due dates is compulsory to become eligible for 
+appearing in corresponding Term End Examinations. For further details, please 
+refer to MCA Programme Guide. 
+3. To become eligible for appearing the Term End Practical Examination for the lab 
+courses, it is essential to fulfill the minimum attendance requirements as well as 
+submission of assignments (on or before the due date). For further details, please 
+refer to the MCA Programme Guide. 
+4. The viva voce is compulsory for the assignments. For any course, if a student 
+submitted the assignment and not attended the viva-voce, then the assignment is 
+treated as not successfully completed and would be marked as ZERO. 
+3 
+ 
+Course Code   : MCS-011 
+Course Title   : Problem Solving and Programming 
+Assignment Number  : MCA(1)/011/Assignment/16-17 
+Maximum Marks  : 100  
+Weightage    :  25%  
+Last Dates for Submission : 15
+th
+  October, 2016  (For July 2016 Session) 
+15
+th
+  April, 2017  (For January 2017 Session) 
+ 
+There are six questions in this assignment, which carries 80 marks. Rest 20 
+marks are for viva-voce. Answer all the questions. You may use illustrations and 
+diagrams to enhance the explanations. Please go through the guidelines 
+regarding assignments given in the Programme Guide for the format of 
+presentation.  Insert comments in the coding for better understanding. 
+ 
+1. Mention the type of applications which can be developed using 
+C language. Also, list the latest C compilers that are available in 
+the market by giving the complete details like the name of the 
+compiler, version, vendor?s name, DOS based /WINDOWS 
+based / Others, year of release, etc.. 
+(10 Marks) 
+2. Draw a flow chart and write a corresponding interactive program 
+which prompts the user with the following options on the 
+opening menu: 
+1) Subtract two integers 
+2) Compare two integers to find the smallest 
+3) Test an integer for odd or even 
+4) Quit 
+ 
+Enter your choice: 
+ 
+If an “1” is entered, prompt for the input of two integers and 
+display their difference. If “2” is entered, prompt for two 
+integers and display the smaller of the two. If  “3” is entered, 
+prompt the user for one integer and print out if it is odd or even. 
+If  “4” is entered, exit the program. If the user enters any letters 
+or numbers other than the choice, redisplay the prompt. All 
+output should go to the terminal and all input should come from 
+the keyboard. 
+ 
+(10 Marks) 
+3. Write an interactive program using strings which: 
+a) gets a filename from the standard input (keyboard) or a file 
+b) gets a mode (read or write) from the same source and, 
+c) copies the contents of the input file to: 
+(i)  the standard output if the input is from a file  
+                                    OR 
+(ii) to the file specified in a) if the mode from b) is write 
+If the file won't open, direct the input/output to the 
+corresponding standard file (stdin/stdout). 
+(10 Marks) 
+4 
+ 
+4. Draw a flowchart and write an interactive C program that prints 
+a power table for a specified range of integers. The user 
+specifies the starting and ending integer on the command line 
+along with the max power to compute for each integer. An 
+example is included below: 
+ 
+Example:  
+Starting Integer: 2  
+Ending Integer:  4  
+Maximum Power to be computed: 5 
+ 
+Output 
+Num Powers (1 - 5) 
+2 2 4 8 16 32 
+3 9 27 81 243 729 
+4 16 64 256 1024 4096  
+  
+Your program should use the pow( ) function along with casting 
+of this function?s arguments and output.  
+ 
+(20 Marks) 
+5. Write an interactive C program to simulate the evaluation 
+scheme for MCA (First semester) for 10 students. Each course 
+should have both the components (Assignment as well as Term 
+End Examination). 
+ 
+(10 Marks) 
+6. Write a program to crypt its input according to a specified 
+transformation scheme. The transformation scheme will consist 
+of two strings: a string of characters and then a string of 
+replacement characters. The idea is that your program replaces 
+every instance of the i
+th 
+character in the initial string with the 
+(i+1)
+th
+ character (of English alphabets) in the replacement string. 
+It follows a cyclic pattern. If alphabet z is met it starts with 
+alphabet a. When no substitution is defined for a character, the 
+program just passes it through to the output unchanged. Blank 
+spaces and the other symbols remains the same. The program 
+should inform the user of any errors in the transformation 
+scheme. Your program should display the strings before and 
+after the substitutions in the corresponding 2 files named bcrypt 
+and acrypt. 
+ 
+Example:  
+Original String: I know C programming. 
+String after the transformation: J lopx D qsphsbnnjoh. 
+(20 Marks) 
+ 
+5 
+ 
+Course Code   : MCS-012  
+Course Title   : Computer Organisation and Assembly   
+Language Programming 
+Assignment Number  : MCA(1)/012/Assignment/16-17 
+Maximum Marks  : 100  
+Weightage    :  25%  
+Last Dates for Submission : 15
+th
+  October, 2016  (For July 2016 Session) 
+15
+th
+  April, 2017  (For January 2017 Session) 
+ 
+There are four questions in this assignment, which carries 80 marks. Rest 20 
+marks are for viva voce.  You may use illustrations and diagrams to enhance the 
+explanations.  Please go through the guidelines regarding assignments given in 
+the Programme Guide for the format of presentation.  Answer to each part of the 
+question should be confined to about 300 words. Make suitable assumption, if 
+any. 
+ 
+1.   (Covers Block 1)  
+(a) How can you represent a negative integer in a computer system? 
+If 8 bits (including one sign bit) are to be used to represent 
+integers in binary 2?s complement notation, then what are the 
+possible minimum and maximum number that can be 
+represented? Perform the following arithmetic operations using 
+signed 2?s complement, 8 bit representation. (Please note that the 
+numbers given below are in decimal notation)           
+ 
+i)   Subtract 198 from  –98 
+ii) Add 124 and 142 
+ 
+Please indicate the overflow if it is occurs. How have you 
+identified the overflow? 
+ 
+(2 Marks) 
+(b) Perform the following conversion of numbers: 
+ 
+(i)   Decimal (2050)
+10
+ to hexadecimal 
+(ii)  Hexadecimal (19BACDFE)
+H
+  into Octal. 
+(iii) ASCII string “AssignMenT” into UTF 16 
+(iv) Octal (547561)
+O
+ into Hexadecimal 
+ 
+(2 Marks) 
+(c) A combinational circuit is to be designed that counts the number 
+of occurrences of 1 bits in a 4 bit input, however, an input 1111 is 
+an invalid input for the circuit and output in such a case will be 00. 
+One valid input for such circuit may be 1110 having the output 11; 
+another valid input may be 1010 with the output 10. Draw the 
+truth table for the circuit. Use the Karnaugh's map to design the 
+circuit and draw it using AND, OR and NOT gates. 
+ 
+(4 Marks) 
+(d) What is parity bit? Explain how Single Error Correcting (SEC) 
+code uses parity bits. If an 8 bit data 10101010 on transmission is 
+received as 10111010, then how the SEC code will detect and 
+correct this error. 
+(4 Marks) 
+6 
+ 
+(e) Design a two bit counter (a sequential circuit) that counts in 
+reverse order, i.e. from 11 to 00. Thus, the counter states are 11, 
+10, 01, 00, 11, 10, 01, 00, 11 …  
+ 
+You should show the state table, state diagram, the k-map for 
+circuit design and logic diagram of the resultant design using D 
+flip-flop or J-K flip flop. 
+ 
+(4 Marks) 
+(f) Explain the single precision floating point IEEE 754 
+representation. Give the number ranges that can be represented by 
+this representation. Also, represent the number (356.122)
+10
+ using 
+IEEE 754 single precision as well as double precision 
+representations. Is the representation of the said number exactly 
+same in the two representations? Explain your answer. 
+ 
+(4 Marks) 
+2.    (Covers Block 2)  
+(a) How is the word size of RAM and its capacity related to number 
+of addressing bits? A RAM has a capacity of  1M words having 
+the word size of 32 bits and supports byte addressing. 
+ 
+(i) How many data input and output lines does this RAM need? 
+Explain your answer. 
+(ii) How many address lines will be needed for this RAM? 
+ 
+(2 Marks) 
+(b) A hypothetical computer has 16 MB RAM and has a word size of 
+32 bits. It has cache memory having 32 blocks having a block size 
+of 64 bits. Show how the main memory address 
+100110001111101110111100  will be mapped to a cache address, 
+if  
+ 
+(i)  Direct cache mapping is used  
+(ii)  Associative cache mapping is used 
+(iii) Two way set associative cache mapping is used.       
+ 
+(4 Marks) 
+(c) Explain the basic features of the three I/O techniques 
+(Programmed I/O, Interrupt driven I/O and DMA) with the help of 
+diagrams. A computer is to be designed for an environment 
+requiring frequent disk transfers. Which of the three I/O 
+techniques is most suitable for this computer? Justify your answer. 
+(4 Marks) 
+(d) Consider a file having name  mca.txt and is of size 20 K. You have 
+a disk having 32 tracks, each track having 16 sectors with each 
+sector being 1K. Assume that disk has three free - continuous 
+clusters of 8 sectors each. How can this file be given the space on 
+the disk? Show the content of FAT after the space allocation to the 
+file. You may make suitable assumptions.  You may assume the 
+cluster size as 4 sectors. 
+(4 Marks) 
+7 
+ 
+ 
+(e) Explain the following giving their uses and 
+advantages/disadvantages.  
+ 
+(Word limit for answer of each part is 50 words ONLY)   
+                                  
+(i) DVD 
+(ii) Monitor Resolution 
+(iii) Non-impact printers 
+(iv) Scan codes 
+(v) Graphics accelerators 
+(vi) SCSI 
+ 
+(6 Marks) 
+3.    (Covers Block 3)  
+(a) A hypothetical machine has 64 general purpose registers of 64 bits 
+each. The machine has 4G word of RAM (assume that each word 
+is of 64 bits and memory is word addressable).  The instructions of 
+machine are of fixed format and are 64 bit long. Instructions of the 
+machine consist of operation code, addressing mode specification, 
+one register operand and one memory operand. The machine uses 
+2 bits to specify addressing mode as given below: 
+  
+Addressing mode 
+bits 
+Register 
+Operand 
+Memory 
+Operand 
+00 Direct Direct 
+01 Direct Immediate 
+data 
+10 Register 
+Indirect 
+Direct 
+11 Register 
+Indirect 
+Immediate 
+data 
+ 
+Machine can specify 1024 different operation codes. Assume that 
+the machine has named 5 of its general purpose registers based on 
+their possible role in instruction execution as Program Counter 
+(PC), Accumulator (AC), Memory Address Register (MAR), 
+Instruction Register (IR) , Data Register (DR) and Flag registers 
+(FR). Perform the following tasks for the machine. 
+ 
+ 
+ (i) Specify the size of different fields that are needed in the 
+instruction. (You may leave some bits as unused).  
+ 
+(2 Marks) 
+ (ii) Put some valid values in certain registers and memory 
+locations and demonstrate examples of different addressing 
+modes of this machine.  
+(2 Marks) 
+8 
+ 
+ (iii)  Assuming that the instructions are first fetched to Instruction 
+Register (IR) and the two operands are transferred to AC and 
+DR registers respectively, and result of operation is stored in 
+the AC register; write and explain the sequence of micro-
+operations that are required for fetch and execute cycles of an 
+ADD instruction having addressing mode bits as 01.  Make 
+and state suitable assumptions, if any. 
+ 
+(6 Marks) 
+(b) Assume that you have a machine as shown in section 3.2.2 of 
+Block 3 having the micro-operations as given in Figure 10 on page 
+62 of Block 3. Consider that R1 and R2 both are 8 bit registers and 
+contains 11010011 and 10000111 respectively. What will be the 
+values of select inputs, carry-in input and result of operation 
+(including carry out bit) if the following micro-operations are 
+performed?  (For each micro-operation you may assume the initial 
+value of R1 and R2 as given above) 
+ 
+(i) Subtract with borrow R2 from R1 
+(ii) Exclusive OR of R1 and R2 
+(iii) Shift left R1 twice 
+(iv) Increment R1 
+ 
+(2 Marks) 
+(c) What are the functions of a control unit?  Compare and contrast 
+the functioning of hardwired control unit to that of micro-
+programmed control Unit. 
+ 
+(3 Marks) 
+(d) Explain the differences between the RISC and CISC machines. 
+Also explain differences in the pipelining of these two types of 
+machines.  
+ 
+(2 Marks) 
+(e) Assume that a RISC machine has 256 registers out of which 48 
+registers are reserved for the Global variables and 64 for 
+Instruction related tasks. This machine has been designed to have 
+16 registers for storing four input parameters, four output 
+parameters and eight local variables for a function call. Explain 
+with the help of a diagram, how the overlapped register window 
+can be implemented in this machine for function/procedure calls. 
+You must explain how the parameters will be passed when a 
+function calls another function.  
+ 
+(3 Marks) 
+4.    (Covers Block 4)  
+(a) Write a program in 8086 assembly Language (with proper 
+comments) that accepts a string of four characters entered using 
+the keyboard and checks if all the entered characters are decimal 
+digits. In case all the characters are decimal digits then it converts 
+the entered string into equivalent binary number. Make suitable 
+assumptions, if any. 
+(7 Marks) 
+9 
+ 
+ 
+(b) Write a program in 8086 assembly Language (with proper 
+comments) that passes a parameter containing a lower case 
+alphabet to a near procedure named TOUPCASE, which converts 
+the lowercase alphabet to upper case and returns it to the calling 
+assembly program. Make suitable assumptions, if any. 
+ 
+(7 Marks) 
+(c) Explain the following in the context of 8086 Microprocessor 
+ 
+(i) Use of segment and segment registers 
+(ii) Interrupt vector table and its use 
+(iii) Indirect Addressing Modes of 8086 microprocessor 
+(6 Marks) 
+   
+ 
+ 
+10 
+ 
+Course Code   : MCS-013   
+Course Title   : Discrete Mathematics 
+Assignment Number  : MCA(1)/013/Assignment/16-17 
+Maximum Marks  : 100 
+Weightage    :  25%  
+Last Dates for Submission : 15
+th
+ October, 2016  (For July 2016 Session) 
+15
+th
+  April, 2017  (For January 2017 Session) 
+ 
+There are eight questions in this assignment, which carries 80 marks. Rest 20 
+marks are for viva-voce. Answer all the questions. You may use illustrations and 
+diagrams to enhance the explanations. Please go through the guidelines 
+regarding assignments given in the Programme Guide, for more details.  
+ 
+1. (a) What is proposition? Explain whether, x-y >5 is a 
+proposition or not. 
+(2 Marks) 
+ (b) Make truth table for followings.                                             
+(i)   p? (~q  ? ~ r) ? (~p  ?  r) 
+(ii)   p? (r  ?  q) ?
+  (
+~p ? ~q) 
+(4 Marks) 
+ (c) Draw a Venn diagram to represent followings:                      
+(i)    (A   B)  (B C) 
+(ii)   (A B) (C~A)  
+(2 Marks) 
+ (d) Give geometric representation for followings:                         
+(i) R x { 4}; where R is a natural number 
+(ii) {2, 2) x ( 2, -4)  
+(2 Marks) 
+2. (a) Write down suitable mathematical statement that can be 
+represented by the following symbolic properties.                                                                             
+(i) ( x) (  y) ( z) P                                                                
+(ii) ( x) ( y) ( z) P    
+(2 Marks) 
+ (b) Write the following statements in the symbolic form.      
+(i) Some birds can not fly 
+(ii) Nothing is correct 
+(2 Marks) 
+ (c) What is modus ponen and modus tollen? Write one 
+example of each.  
+(2 Marks) 
+ (d) What is relation?  Explain equivalence relation with the 
+help of an example.  
+(4 Marks) 
+3. (a) Make logic circuit for the following Boolean expressions:      
+(i) (x' y' z) + (xyz) 
+(2 Marks) 
+ (b) Find Boolean Expression of Q in the figure given below. 
+ 
+Figure 1: Boolean Circuit 
+(2 Marks) 
+11 
+ 
+ (c) Find Boolean Expression of Q  in the figure given below. 
+ 
+ 
+ 
+                                
+Figure 2: Boolean Circuit 
+ 
+(2 Marks) 
+ (d) What is integer partition? Write down all partitions of 8. 
+Also find   and  .                                                                                    
+(4 Marks) 
+4. (a) How many different committees can be formed of 10 
+professionals, each containing at least 4 Professors, at 
+least 3 General Managers and 3 Finance Advisors from list 
+of 10 Professors, 12 General Managers and 5 Finance 
+Advisors?                                           
+(3 Marks) 
+ (b) There are two mutually exclusive events A and B with 
+P(A) =0.5 and P(B) = 0.4. Find the probability of 
+followings:                                                                                          
+(i)   A does not occur 
+(ii)  Both A and B does not occur 
+(iii) Either A or B does not occur  
+(3 Marks) 
+ (c) What is set? Explain the basic properties of sets.  (4 Marks) 
+5. (a) How many words can be formed using letter of 
+UMBRELLA using each letter at most once? 
+(i) If each letter must be used,  
+(ii) If some or all the letters may be omitted.                                       
+(2 Marks) 
+ (b) Show using truth that:         
+(p ? q) ? q ? p ? q                                                      
+(2 Marks) 
+ (c) Explain whether (p ? q) ? (q ? r) is a tautology or not.   (2 Marks) 
+ (d) Prove that: 1 + 2 + 3 + .  .  .  + n = ½n(n + 1) using 
+mathematical induction.  
+(4 Marks) 
+6. (a) How many ways are there to distribute 15 district objects 
+into 5 distinct boxes with: 
+(i) At least three empty box. 
+(ii) No empty box.                                                                  
+(2 Marks) 
+ (b) Explain principle of multiplication with an example.                           (2 Marks) 
+ (c) Set A,B and C are:   A = {1, 2,  3,5, 8, 11 12,13},   
+B = { 1,2, 3 ,4, 5,6  } and C { 7,8,12, 13}. Find  
+A B C , A B C, A B C and (B~C)                     
+(3 Marks) 
+12 
+ 
+ (d) Out of 30 students in college 15 takes art courses, 8 takes 
+biology courses and 6 takes chemistry. It is also known 
+that 3 students take all the three courses. Show that 7 or 
+more students taken none of the course.                                                              
+(3 Marks) 
+7. (a) Explain principle of duality with example?                            (2 Marks) 
+ (b) What is power set? Write power set of set 
+A={1,2,3,4,5,6}.             
+(3 Marks) 
+ (c) What is a function? Explain domain and range in context 
+of function with example. 
+(2 Marks) 
+ (d) State and prove the Pigeonhole principle.  (3Marks) 
+8. (a) Find inverse of the following functions                  
+i) f(x) = 
+3
+2
+2
+x
+x
+  3 x 
+(2 Marks) 
+ (b) Explain circular permutation with the help of an example.          (3 Marks) 
+ (c) What is indirect proof? Explain with an example.  (2 Marks) 
+ (d) What is Boolean algebra?                   (3 Marks) 
+ 
+ 
+ 
+ 
+13 
+ 
+Course Code   : MCS-014  
+Course Title   : Systems Analysis and Design 
+Assignment Number  : MCA(1)/014/Assignment/16-17 
+Maximum Marks  : 100  
+Weightage    :  25%  
+Last Dates for Submission : 15
+th
+  October, 2016  (For July 2016 Session) 
+15
+th
+  April, 2017  (For January 2017 Session) 
+ 
+ 
+This assignment has three questions of 80 marks. Rest 20 marks are for viva 
+voce. Answer all questions. You may use illustrations and diagrams to enhance 
+the explanations. Please go through the guidelines regarding assignments given 
+in the Programme Guide for the format of presentation. 
+ 
+1. Develop SRS for  Grade Card Generation System for a 
+University. SRS should be as per IEEE standard SRS template. 
+Make necessary assumptions. 
+(30 Marks) 
+2. Draw the DFDs upto 3
+rd
+ level for Grade Card Generation 
+System for a University. 
+(30 Marks) 
+3. Draw ERD for Grade Card Generation System for a University. 
+Make necessary assumptions. 
+(20 Marks) 
+ 
+14 
+ 
+Course Code   : MCS-015  
+Course Title   : Communication Skills  
+Assignment Number  : MCA(1)/015/Assignment/16-17 
+Maximum Marks  : 100 
+Weightage    :  25%  
+Last Dates for Submission : 15
+th
+ October, 2016  (For July 2016 Session) 
+15
+th
+ April, 2017  (For January 2017 Session) 
+ 
+This assignment has eight questions. Answer all questions. Please go through the 
+guidelines regarding assignments given in the Programme Guide for the format 
+of presentation. 
+ 
+1.   Read the passage below and answer the questions that follow:  
+India?s unique combination of IT skills, its labour advantages, capital flow and pool 
+of ambitious, outward-looking companies is giving it a second, massive triple play 
+advantage across sectors – in manufacturing, services and agriculture.  
+ 
+Only recently have we begun to recognize the broader implications of the IT 
+revolution – that it is nothing less than a seismic shift in how the world economy 
+works and that India may be especially well placed to take advantage of it. But then, 
+economic power comes to countries in unexpected ways and at unexpected times, 
+and it is usually enabled by new technologies. When Europe began invading eastern 
+shores, the Asian empires were horrified – they had regarded them as little more 
+than impoverished barbarians. Europe?s growth in the sixteenth and seventeenth 
+centuries was a result of technological advances in building large, multi-masted 
+ships that could sail in the rough, open seas. The rise of new navigation tools –better 
+maps, sextants and chronometers – also allowed explorers to chart out better sea 
+routes, giving Europe access to colonies, slaves, silk and gold.  
+  
+The tiny island of Britain emerged as a major European power in the eighteenth 
+century with innovations in public finance and an embryonic stock market. These 
+institutions created richly funded, powerful companies that quickly dominated 
+global trade – our old acquaintance the East India Company was in fact the very 
+first „joint-stock? company of Britain. And of course, the technological prowess of 
+the Industrial Revolution enabled Britain and Europe to dominate world economic 
+growth for over a hundred years. 
+ 
+In this context, India has been fortunate even in its barriers. In the 1970s and 1980s, 
+IT was literally the only option for a start-up entrepreneur to begin a business 
+without political access or capital. A slow-growing economy also ended up 
+diverting much of its huge talent into a small but burgeoning IT sector, and these 
+firms got by on very little – a leased computer, a data line – over which they sold 
+Indian brainpower to the outside world. India thus literally stumbled on to services 
+growth, one that happens to be the emerging story for the international economy. 
+ 
+ 
+15 
+ 
+ (a) Why is India uniquely placed to succeed at the present moment? (2 Marks) 
+ (b) What does “triple play advantage across sectors” refer to?  (2 Marks) 
+ (c) How and why do you think Britain and Europe succeeded in 
+overcoming the Asian empires.   
+(3 Marks) 
+ (d) Why was IT an easy option for a start up entrepreneur in India? 
+Discuss. 
+(2 Marks) 
+ (e) Give a suitable title to the passage.  (1 Marks) 
+ (f) Pick out the words from the passage which mean the opposite 
+of the following words given below:    
+      
+ i tiny   - para 1 
+ ii disabled  - para 2 
+ iii rich  - para 3 
+ iv calm  - para 2 
+ v unfortunate - para 4 
+(5 Marks) 
+ (g) Write sentences using the following words from the passage: 
+   
+ i unique   - para 1 
+ ii unexpected - para 2 
+ iii horrified - para 2 
+ iv innovations - para 3 
+ v entrepreneur  - para 4 
+ 
+(5 Marks) 
+2.     Here is a phone conversation. Fill in the blanks with the appropriate 
+sentences/phrases.      
+(5 Marks) 
+Receptionist:  Good Morning, Willow Sports, ..…………..? 
+Harsh:  Hello, this is Harsh Wadhwa calling from 
+Mumbai. Earlier this month I wrote to Mr. Tikku 
+about some new sports equipment we have 
+designed. He sent me an email suggesting I call to 
+make an appointment to meet him in Bengaluru. 
+…… ………………. 
+ 
+Receptionist: Yes Mr. Wadhwa, I?ll connect you to Ms. Rini 
+Rebello, Mr. Tikku?s secretary. She will help you 
+with the appointment.  
+Harsh: ………………………………….. 
+Rini: ……………………….. When would you like to 
+come to Bengaluru? 
+Harsh: ………………………., but any time next week 
+would be good for me. 
+Rini: Fine we keep it for 12
+th
+ of June.   
+Harsh: Thank you. That?s great.  
+ 
+16 
+ 
+3.   Read the following letter and write a suitable reply to it.   
+ 
+Dear Sirs, 
+ 
+We have received your consignment of Silky Blankets against our 
+order no. AK/1/231, dated 16
+th
+ March, 2016.  
+ 
+We regret to inform you that we have received only 900 blankets 
+packed in nine cartons. 
+ 
+As we have to send off the bulk supply by the month end, kindly send 
+us the remaining part of our order i.e. 300 blankets as soon as 
+possible.  
+ 
+Yours sincerely  
+ 
+(……….) 
+ 
+(10 Marks) 
+4.    Write an essay in 250 to 300 words on any one of the following: 
+ 
+ Different ways in which the internet can help students learn.  
+ Are advances in science and technology making society happier? 
+ Students no longer need to go to libraries.  
+ 
+(20 Marks) 
+5.   If you were evaluated in a group discussion what are the factors that 
+you think the evaluator will assess you on. 
+ 
+(5 Marks) 
+6.   A junior colleague who wants to take the third leave within a week 
+comes to the boss – you. Find out what his/her problem is and help 
+him/her without compromising on the interest of your 
+business/work. 
+ 
+(10 Marks) 
+7.    Write short notes on the following:      
+(a) Written versus oral communication 
+(b) An effective meeting 
+(c) Barriers to communication 
+ 
+(10 Marks) 
+8.     Do as directed:  
+ 
+(a)  Complete the sentences with words from the box. You don?t 
+need to use all the words. 
+ 
+although because but so until when while 
+ 
+(5 Marks) 
+i ……………she spoke very fast, I understood nearly 
+everything.  
+ii I couldn?t read……………it was too dark.  
+iii The food wasn?t very good, …….he ate everything.  
+ 
+17 
+ 
+iv The lesson finished early, ………………we went for a walk.  
+v …………..I received his letter I went round to see him.  
+ 
+(b) Fill in the blanks with the correct forms of the verbs in brackets: 
+ 
+i I am sure we ……………………(meet) our targets if we 
+……………………( maintain) our current level of sales.  
+ii If I …………(be) in your position, 
+I……………………(insist) on having more staff in the 
+department.  
+iii ………………(meet) an old business colleague of mine 
+while I was travelling to Delhi for a conference.  
+ 
+(5 Marks) 
+(c)   Fill in the blanks with the correct preposition:            
+  
+i The bus moved up the dirk track and stirred …….the dust.  
+ii Ben fell……….his bicycle and broke his leg.  
+iii The jeep raced round the corner at 80km an hour. 
+“Hold………..!” the driver cried.  
+iv Mike wanted to leave the party at midnight. His friends 
+asked him to stay………... . 
+v The dog could not get at the thief because it was tied 
+…….the gate.  
+ 
+(5 Marks) 
+(d) Fill in the blanks with the noun or verb form of the given word. 
+Please make sure that the verb/noun is grammatically correct for 
+the context.        
+ 
+ Examine - The history teacher told the class. “The final 
+………….will be in June. You will be ……..on all the 
+topics you studied this semester.  
+ 
+ Permit - The teacher gave John ……………..to leave the class 
+early. Students are normally not ……………..to leave 
+early but John had a good reason.  
+ 
+ Explain - Charlie didn?t understand the teacher?s …………. 
+about the laws of friction.  
+(5 Marks) 
+ 
+18 
+ 
+Course Code   : MCSL-016 
+Course Title   : Internet Concepts and Web Design  
+ (Lab Course) 
+Assignment Number  : MCA(1)/L-016/Assignment/16-17 
+Maximum Marks  : 50 
+Weightage    :  25%  
+Last Dates for Submission : 31
+st
+ October, 2016  (For July 2016 Session) 
+30
+th
+  April, 2017  (For January 2017 Session) 
+ 
+There are two questions in this assignment carrying a total of 40 marks. Your 
+Lab Record will carry 40 Marks. Rest 10 marks are for viva voce.  You may use 
+illustrations and diagrams to enhance the explanations.  Please go through the 
+guidelines regarding assignments given in the Programme Guide for the format 
+of presentation. Submit the screenshots along with the coding and 
+documentation.  
+ 
+1. A Bus Company has a fleet of buses, which are operated on 
+different tourist routes as per a fixed schedule. The company 
+provides the details of all the routes including date and time of 
+departure, price, total time taken etc. on its website. Create a 
+web site for this company having the following features:  
+For the sake of consistency every page of the website should 
+consists of four basic divisions – 
+Header –  This division should be of fixed size and should 
+display company name, logo. This division should be 
+in different background colour. This division should 
+be at the top side of every page. 
+Footer – This division contains the name of developer and 
+copyright information. This division should be at the 
+bottom of every page. 
+Content – The pages that you are designing should differ in 
+Content Division only. The five different page 
+contents that you need to design are - Home, Tour 
+List, Schedule, Booking and Contact us.  
+Menu – This division should be towards the left in every web 
+page and should contain links to all the five web 
+pages viz. Home, Tour List, Schedule, Booking and 
+Contact us. 
+ 
+The Content division of the five different pages should be as 
+under: 
+ Home page should include Welcome message, year of 
+establishment of the company, turnover, size of company 
+etc. 
+ Tour List page should give destination wise sorted list of 
+various tours. This list should be displayed in a table. 
+ Schedule page should list the timing of buses to different 
+destinations. 
+ 
+ Booking page should display the list of persons who have 
+booked. This information should be displayed for every tour. 
+ Contact us page should contain a form which should ask the 
+details like name, tour number, contact phone etc. of the 
+person who wants to find more information about a tour. 
+You must use JavaScript to check that all the required fields 
+are filled by the visitor. (35 Marks) 
+
+2. Write a program using Java Script / VBscipt that checks if two 
+matrices have identical values in all the elements. (This program 
+is NOT a part of website, therefore, should be done separately.) 
+(5 Marks) 
+ 
+ 
+ 
+ 
+ 
+ 
+20 
+ 
+Course Code   : MCSL-017  
+Course Title   : C and Assembly Language Programming  
+ (Lab Course) 
+Assignment Number  : MCA(1)/L-017/Assignment/16-17 
+Maximum Marks  : 50 
+Weightage    :  25%  
+Last Dates for Submission : 31
+st
+ October, 2016  (For July 2016 Session) 
+30
+th
+  April, 2017  (For January 2017 Session) 
+ 
+This assignment has two sections. Answer all questions in each section. Each 
+Section is of 20 marks. Your Lab Records will carry 40 Marks. Rest 20 marks 
+are for viva voce.  You may use illustrations and diagrams to enhance the 
+explanations.  Please go through the guidelines regarding assignments given in 
+the programme guide for the format of presentation. Make suitable assumption 
+is necessary.   
+                                                         
+Section 1: C Programming Lab 
+1. 
+Write an interactive program in C language to create an application 
+program for your study centre. This application should be having menu 
+options like student?s details (Name, Enrollment, Address, 
+Programme, course, contact, etc), semester enrolled for, 
+assignments submitted and marks obtained, attendance for the 
+practical courses etc. The application should be designed user-
+friendly.   
+ 
+Note: You must execute the program and submit the program logic, 
+sample input and output along with the necessary documentation for 
+this question. Assumptions can be made wherever necessary. 
+ 
+(20 Marks) 
+Section 2: Assembly Language Programming Lab 
+1. (a) Write a program in assembly language to find if two given 
+strings are of equal length. 
+ 
+(5 Marks) 
+ (b) Write a program in assembly language to find the factorial of 
+any number (assume number is smaller than 10). 
+ 
+(5 Marks) 
+ (c) Write a program in assembly language for reversing a four 
+byte string. 
+ 
+(5 Marks) 
+ (d) Write a program in assembly language for finding the largest 
+number in an array of 10 elements. 
+(5 Marks) 
+ 
+ 

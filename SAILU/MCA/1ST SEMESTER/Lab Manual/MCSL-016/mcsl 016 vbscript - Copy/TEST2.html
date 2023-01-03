@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 220px;
+        }
+    </style>
+    <script language="vbscript" type="text/vbscript">
+// <![CDATA[
+
+        Sub Submit1_onclick()
+        
+       Dim M, N 'As Integer
+       Dim I, J 'As Integer
+      
+        M = CInt(document.forms("frmMain").elements("StartText").value)
+        N = CInt(document.forms("frmMain").elements("EndText").value)
+        
+        If M > N Then
+            MsgBox "Ending value should eb greater than the startiing value!" & vbCrlf & " Please enter another value."
+            Exit Sub
+        End If
+
+        document.write("<HTML>")
+        document.write("<head><title>Mulitplication Table " & M & " x " & N & "</title></head>")
+
+        document.write("<body>")
+
+        document.write("<h1>Multiplication Table" & M & " x " & N & "</h1>")
+        document.write("<h2>By Sierra Ray</h2>")
+
+        document.write("<hr style=""color:red"" />")
+        document.write("<table border=""3"">")
+
+        document.write("<tr>")
+        document.write("<th>&nbsp;</th>")
+
+        For I = M To N
+           document.write("<th>" & I & "</th>")
+        Next
+
+        For I = M To N
+           document.write("<tr>")
+           document.write("<th>" & I & "</th>")
+
+            For J = M To N
+                document.write("<td>" & I * J & "</td>")
+            Next
+
+            document.write("</tr>")
+        Next
+
+        document.write("</table>")
+
+        document.write("</body>")
+        document.write("</HTML>")
+
+        'MsgBox("Thanks for sticking around!")
+        End Sub
+       
+
+// ]]>
+    </script>
+</head>
+<body>
+    <form id="frmMain" method="post">
+        <table class="style1">
+            <tr>
+                <td class="style2">
+                    Start</td>
+                <td>
+                    <input id="StartText" type="text" /></td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    End</td>
+                <td>
+                    <input id="EndText" type="text" /></td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    &nbsp;</td>
+                <td>
+                    <input id="Submit1" type="submit" value="Generate Table" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

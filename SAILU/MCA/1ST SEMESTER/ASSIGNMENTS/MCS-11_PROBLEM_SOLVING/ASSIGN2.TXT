@@ -1,0 +1,56 @@
+#include<stdio.h>
+#include<math.h>
+main()
+{
+    int a,b,c,e;
+    clrscr();
+    
+    printf("\n------------Menu-----------\n");
+    printf("1- for Subtract two integer\n");
+    printf("2- for Compare two Integer\n");
+    printf("3- for Odd OR Even check of Integer\n");
+    printf("4- for Exit\n");
+    printf("------------Menu-----------\n");
+    
+    do
+    {
+	printf("\n\nenter your choice :");
+        scanf("%d",&e);
+
+        switch(e)
+        {
+        case 1:
+            printf("enter the two numbers :");
+            scanf("%d%d",&a,&b);
+            c=a-b;
+	    printf("Subtraction of two Numbers is = %d",c);
+            break;
+        case 2:
+            printf("enter the two numbers :");
+            scanf("%d%d",&a,&b);
+            if(a<b)
+                printf("First Number is Smallest");
+            else if(a>b)
+                printf("Second Number is Smallest");
+            else if(a==b)
+                printf("Both are equal");
+            break;
+        case 3:
+            printf("enter a number :");
+            scanf("%d",&a);
+            if(a%2==0)
+                printf("Entered Number is Even");
+            else
+                printf("Entered Number is Odd");
+            break;
+        case 4:
+            printf("We are exiting the program");
+            break;
+        default:
+            printf("\n Wrong choice. Please Enter Proper choice. \n");
+            break;
+        }
+    }while(e!=4);
+    getch();
+    return 0;
+}

@@ -1,0 +1,4 @@
+D:\SAILU\Multiplication\Multiplication\bin\Debug\Multiplication.exe
+D:\SAILU\Multiplication\Multiplication\bin\Debug\Multiplication.pdb
+D:\SAILU\Multiplication\Multiplication\obj\x86\Debug\Multiplication.exe
+D:\SAILU\Multiplication\Multiplication\obj\x86\Debug\Multiplication.pdb
